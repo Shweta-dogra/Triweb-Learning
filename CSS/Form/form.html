@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./form.css" />
+    </head>
+    <body>
+        <form action="">
+            <h2>Registration</h2>
+            <label for="fname">First Name: </label><br>
+            <input type="text" id="fname" placeholder="Enter First Name..."  required/>
+            <br>
+            <label for="lname">Last Name: </label><br>
+            <input type="text" id="lname" placeholder="Enter Last Name..." required/>
+            <br>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" placeholder="Enter Email ID..." required/>
+            <br>
+            <label for="con">Contact: </label><br>
+            <input type="number" maxlength="10" id="con" placeholder="Enter Contact Number..." required/>
+            <br>
+            <label for="dob">Date of Birth: </label><br>
+            <input type="date" id="dob" placeholder="Enter Date of Birth..." required/>
+            <br>
+            <label for="age">Age: </label><br>
+            <input type="number" id="age" placeholder="Enter Age..." required/>
+            <br>
+            <label for="gender">Gender: </label><br>
+            <input type="radio" id="male" name="gender" value="MALE">
+            <label for="male">MALE</label>
+            <input type="radio" id="female" name="gender" value="FEMALE">
+            <label for="female">FEMALE</label><br>
+            <br>
+            <label for="resume">Resume File:</label><br>
+            <input type="file" id="resume" accept=".pdf" required/>
+            <br>
+            <br>
+            <button type="submit" >Register Now</button>
+
+        </form>
+    </body>
+</html>
