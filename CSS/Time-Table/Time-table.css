@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table, th, td{
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;   
+}
+table{
+    width: 500px;
+    
+}
+th, td{
+    padding: 10px;
+}
+
+thead{
+    background-color: rgb(3, 3, 97);
+    color: white;
+}
+tbody{
+    background-color: rgb(245, 243, 243);
+}
