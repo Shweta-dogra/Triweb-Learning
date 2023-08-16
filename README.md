@@ -4,4 +4,4 @@
  11 Aug 23: Created a registration form using html and implemented different css properties to style it. And created personal timetable and styled it using css file.
 
  # Javascript programs
- 16 Aug 23: Done some basic programs on javascript. Implemented conditional operators and comparartors.
+ 16 Aug 23: Done some basic programs on javascript. Implemented conditional operators and comparartors, image changer program.
