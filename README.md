@@ -5,3 +5,9 @@
 
  # Javascript programs
  16 Aug 23: Done some basic programs on javascript. Implemented conditional operators and comparartors, image changer program, program to validate user name.
+
+ # Javascript is case sensitive and unicode
+ Variables: A js identifier must start with a letter, underscore or dollar sign. Sunsequent charachters can also be digits(0-9).
+ Variable hoisting, variable scope, global variable, function hoisting
+
+ 

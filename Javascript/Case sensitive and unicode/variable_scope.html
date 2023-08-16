@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Variable Scope</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+
+    <body>
+
+        <h1></h1>
+        
+        <script>
+            if(true){
+                var x = 5;
+            }
+            console.log(x); //x = 5
+
+            if(true){
+                let y = 5;
+            }
+            console.log(y); //Uncaught Reference error: y is not defined
+        </script>
+    </body>
+</html>

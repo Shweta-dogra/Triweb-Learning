@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Variable Hoisting</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+
+    <body>
+
+        <h1></h1>
+        
+        <script>
+
+            var a;
+            console.log("value of a is "+ a); //value of a is undefined
+
+            console.log("value of b is "+ b); //value of b is undefined
+            var b;
+
+            // console.log("value of c is "+ c); //Uncaught reference error: c is not defined
+
+            var p = 7;
+            console.log("value of p is "+ p); //no error
+
+            console.log("value of q is "+ q); // value of q is undefined
+            var q = 8;
+
+            let x;
+
+            console.log("value of x is "+ x); //The value of x is undefined
+
+            console.log("value of y is "+ y); //Uncaught reference error: y is not defined
+            let y;
+        </script>
+    </body>
+</html>

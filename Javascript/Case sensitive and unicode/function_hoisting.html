@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Function hoisting</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+
+    <body>
+
+        <h1></h1>
+        
+        <script>
+            abc(); //abc
+            function abc(){
+                console.log("abc");
+            }
+
+            pqr(); //Type error: pqr is not a function
+
+            var pqr = function(){
+                console.log("pqr");
+            }
+        </script>
+    </body>
+</html>
