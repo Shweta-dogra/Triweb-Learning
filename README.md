@@ -10,4 +10,4 @@
  Variables: A js identifier must start with a letter, underscore or dollar sign. Sunsequent charachters can also be digits(0-9).
  Variable hoisting, variable scope, global variable, function hoisting
 
- 
+  
