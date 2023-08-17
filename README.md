@@ -16,3 +16,6 @@
   3. Functions: Declaring / defining functions, scope of function, calling a function, pass by value, pass by reference, function expression, condition based function creation, function hoisting and calling, recursion(3 ways of recursion)
   4. User input:  Using prompt, using html input box
   5. Nested Function: Implementation and usage
+  6. Closure: Usage, Name conflicts.
+  7. Function: parameters, rest operator, arguments
+  8. Arrow function(Usage & syntax), some predefined functions and default parameters
