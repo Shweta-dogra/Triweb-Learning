@@ -5,19 +5,33 @@
     </head>
     <body>
 
+        <input type="text" id="num1" />
+        <input type="text" id="num2" />
+        <button id="btn">ADD</button>
         <script>
 
             // user input from prompt
             function add(a, b){
                 console.log(a+b);
             }
-            let x = parseInt(("Enter first digit"));
-            let y = parseInt(("Enter second digit"));
+            let x = parseInt(prompt("Enter first digit"));
+            let y = parseInt(prompt("Enter second digit"));
 
-            add(a, b);
+            add(x, y);
 
             //user input using html input box
-            
+            function addInputs(n1, n2){
+                console.log(n1+n2);
+            }
+
+            function btnListener(){
+                let n1 = parseInt(document.getElementById("num1").value);
+                let n2 = parseInt(document.getElementById("num2").value);
+                addInputs(n1, n2);
+            }
+           
+            document.getElementById("btn").addEventListener("click", btnListener);
+             
         </script>
     </body>
 </html>
