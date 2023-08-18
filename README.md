@@ -19,3 +19,8 @@
   6. Closure: Usage, Name conflicts.
   7. Function: parameters, rest operator, arguments
   8. Arrow function(Usage & syntax), some predefined functions and default parameters
+
+  # 18 Aug 23
+  1. Operators: Assignment, arithmetic, relational (in, instance of), logical, bitwise, conditional, comma.
+  2. Array destructuring
+  3. Types of expressions and their use: Arithmetic, string, logical, primary(this), left hand side(new, super).
