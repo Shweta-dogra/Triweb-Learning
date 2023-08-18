@@ -31,3 +31,5 @@
   8. Escape sequences: Hexadecimal and unicode escape sequences
   9. String objects: Methods of strings(concatenation, splitting, slice, substring, replace, replaceAll, toLowerCase, toUpperCase and trim)
   10. Template Literals: Multiline template and embedded expressions.
+  11. Regular Expression: Writing and usage.
+  12. replace using regex
