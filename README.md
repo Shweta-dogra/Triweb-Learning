@@ -24,3 +24,6 @@
   1. Operators: Assignment, arithmetic, relational (in, instance of), logical, bitwise, conditional, comma.
   2. Array destructuring
   3. Types of expressions and their use: Arithmetic, string, logical, primary(this), left hand side(new, super).
+  4. Numbers: Numeric ssystems, number object & properties, methods of numbers.
+  5. Math object and number object
+  6. Date object
