@@ -27,3 +27,7 @@
   4. Numbers: Numeric ssystems, number object & properties, methods of numbers.
   5. Math object and number object
   6. Date object
+  7. JS text formatting and string literals
+  8. Escape sequences: Hexadecimal and unicode escape sequences
+  9. String objects: Methods of strings(concatenation, splitting, slice, substring, replace, replaceAll, toLowerCase, toUpperCase and trim)
+  10. Template Literals: Multiline template and embedded expressions.
