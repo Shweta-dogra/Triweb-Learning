@@ -33,3 +33,9 @@
   10. Template Literals: Multiline template and embedded expressions.
   11. Regular Expression: Writing and usage.
   12. replace using regex
+  13. Indexed COllection: 3 ways of creating array, populating array, understanding length, iterationg array
+  14. Methods of array: concat, join, push, pop, shift, unshift, slice, splice, replace elements of an array, sort, reverse, index of
+
+  # 19 Aug 23
+  1. Methods of array: map, filter, reduce, every, some
+  2. Multi dimensional array
