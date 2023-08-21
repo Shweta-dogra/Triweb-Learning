@@ -39,3 +39,7 @@
   # 19 Aug 23
   1. Methods of array: map, filter, reduce, every, some
   2. Multi dimensional array
+  3. Keyed collections
+
+  # 21 Aug 23
+  1. Keyed collection: Map, WeakMap, set, conversion of array to set, comparison b/w array & set, weakSet, object, object enumerate, __proto & prototype, define object methods, getter & setter, deleting property of an object
