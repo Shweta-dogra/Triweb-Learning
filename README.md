@@ -43,3 +43,6 @@
 
   # 21 Aug 23
   1. Keyed collection: Map, WeakMap, set, conversion of array to set, comparison b/w array & set, weakSet, object, object enumerate, __proto & prototype, define object methods, getter & setter, deleting property of an object
+  2. Class v/s prototype based language
+  3. Prototype based inheritance
+  4. Callbacks v/s promise
