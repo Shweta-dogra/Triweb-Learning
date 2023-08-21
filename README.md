@@ -47,3 +47,4 @@
   3. Prototype based inheritance
   4. promise: promise syntax & execution, promise chaining
   5. callback
+  6. Rest & spread operator

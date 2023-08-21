@@ -1,0 +1,61 @@
+.main-div{
+    background-color: black;
+    width: 400px;
+    margin: auto;
+
+}
+
+.user-div{
+    width: 50%;
+    height: 200px;
+}
+
+.red-div{
+    background-color: red;
+    float: left;
+    
+}
+.green-div{
+    background-color: green;
+    display: inline-block;
+}
+.blue-div{
+    background-color: blue;
+    float: left;
+}
+.yellow-div{
+    background-color: yellow;
+    display: inline-block;
+}
+
+.user-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.btn{
+    height: 30px;
+    width: 160px;
+    background-color: rgb(182, 98, 13);
+    color: white;
+    margin: 15px;
+}
+.user-input{
+    height: 30px;
+    width: 160px;
+    background-color: rgb(222, 182, 142);
+    color: rgb(20, 20, 20);
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+.my_user{
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    font-weight: bold;
+    border: 1px dotted white;
+}
