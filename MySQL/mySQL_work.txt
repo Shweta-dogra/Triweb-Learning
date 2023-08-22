@@ -67,7 +67,7 @@ Inserted row id: 1
 
 #Retreive
 
-SELECT * FROM `teachers`
+SELECT * FROM `teachers` WHERE class_id=3
 
 #Update
 UPDATE `teachers` SET `mobile`='22222' WHERE `teacher_name`='t1'
@@ -92,3 +92,55 @@ Truncate Table classes  // it reset the table
 
 //insert into students
 INSERT INTO `students`(`id`, `name`, `class_id`, `email`) VALUES (1,'student 1',1, 'abcd@1234.com');
+
+
+//retreive conditions
+SELECT * FROM `students` WHERE class_id IN (2, 3)
+
+SELECT * FROM `students` WHERE class_id=1 OR email='abc'
+
+SELECT * FROM `students` WHERE class_id=1 AND email='abc'
+
+SELECT name FROM `students` WHERE class_id=1 //gets student name with id=1
+
+SELECT name as name_of_student FROM `students` WHERE class_id=1
+
+SELECT st.* FROM students st where id=2
+
+SELECT st.name 
+FROM students st 
+where id=2
+
+//join with classes table
+SELECT *
+FROM students st
+INNER JOIN classes cl ON st.class_id = cl.id
+where st.id=3;
+
+SELECT st.name, cl.class_name
+FROM students st
+INNER JOIN classes cl ON st.class_id = cl.id
+where st.id=2;
+
+SELECT st.name, cl.class_name
+FROM students st
+INNER JOIN classes cl ON st.class_id = cl.id;
+
+SELECT st.name, cl.class_name, t.teacher_name
+FROM students st
+INNER JOIN classes cl ON st.class_id = cl.id
+INNER JOIN teachers t ON cl.teacher_id = t.id;
+
+SELECT st.name, cl.class_name, t.teacher_name AS class_teacher_name
+FROM students st
+INNER JOIN classes cl ON st.class_id = cl.id
+INNER JOIN teachers t ON cl.teacher_id = t.id;
+
+-SELECT ALL
+-SELECT WITH WHERE
+-SELECT WITH AND
+-SELECT WITH OR
+-SELECT WITH IN
+-SELECT WITH CUSTOM FILE
+-HOW TO CHANGE NAME OF COLUMN WHILE FETCHING DATA
+-HOW TO CREATE OBJECT OF TABLE
