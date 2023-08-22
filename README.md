@@ -58,3 +58,11 @@
   5. Difference b/w primary key & foreign key
   6. Performed CRUD operations
   7. Truncate table
+  8. Fetching data of table
+  9. Create object of table
+  10. change name of column while fetching data
+  11. joining tables
+
+  12. Installation of mysql workbench on windows
+  13. working on mySQL workbench (mySQL-day2.txt)
+  14. 

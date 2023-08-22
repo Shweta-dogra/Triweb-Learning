@@ -1,0 +1,39 @@
+=> create database workshop2
+=> use workshop2
+
+=> CREATE TABLE teachers( 
+id INT(11) NOT null AUTO_INCREMENT PRIMARY KEY, 
+teacher_name varchar(255) NOT null, 
+mobile varchar(100) NOT null ,
+salary int(30)
+);
+
+=>select * from teachers;
+
+=>drop table teachers //for deleting table
+
+=>CREATE TABLE teachers( 
+id INT NOT null AUTO_INCREMENT PRIMARY KEY, 
+teacher_name varchar(255) NOT null, 
+mobile varchar(100) NOT null ,
+salary int
+);   //MySQL integer length depricated
+
+=>CREATE TABLE classes( 
+id INT NOT null AUTO_INCREMENT, 
+class_name varchar(255) NOT null, 
+teacher_id int NOT null ,
+PRIMARY KEY(id),
+FOREIGN KEY(teacher_id) REFERENCES teachers(id)
+);
+
+=>CREATE TABLE students( 
+id INT NOT null AUTO_INCREMENT, 
+student_name varchar(255) NOT null, 
+mobile varchar(20) default 0,
+class_id int NOT null ,
+PRIMARY KEY(id),
+FOREIGN KEY(class_id) REFERENCES classes(id)
+);
+
+=>
