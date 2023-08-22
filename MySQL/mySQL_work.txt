@@ -1,0 +1,94 @@
+CREATE TABLE `workshop_mysql`.`usertable` (`id` INT(11) NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL, PRIMARY KEY(`id`));
+
+//insert
+
+INSERT INTO `usertable` (`id`, `name`, `email`, `password`) VALUES (1, 'Shweta','abc@gmail.com','1234');
+
+//select
+SELECT * FROM `usertable` WHERE `email`='abc@gmail.com';
+
+//update
+UPDATE `usertable` SET `password`='abcd' WHERE email='abc@gmail.com';
+
+//delete
+DELETE FROM `usertable` WHERE `email`='abc@gmail.com'
+
+
+
+////new table
+
+//create
+CREATE TABLE students( id INT(11) NOT null PRIMARY KEY, name varchar(255) NOT null, class INT(11) NOT null, email varchar(255) NOT null );
+
+
+CREATE TABLE Teachers( id INT(11) NOT null AUTO_INCREMENT PRIMARY KEY, teacher_name varchar(255) NOT null, mobile varchar(100) NOT null );
+
+//forien key
+
+CREATE TABLE classes( 
+    id INT(11) NOT null AUTO_INCREMENT , 
+    class_name varchar(100) NOT null, 
+    teacher_id INT(11) NOT null, 
+    PRIMARY KEY(id),
+    FOREIGN KEY(teacher_id) REFERENCES teachers(id)
+);
+
+//edit a table column(student=>class changing column name)
+
+ALTER TABLE students
+CHANGE class class_id int(11) NOT null;
+
+
+//alter and add foreign key
+
+ALTER TABLE students
+ADD FOREIGN KEY (class_id) REFERENCES classes(id);
+
+
+//add column to get time stamp of creation
+ALTER TABLE students
+ADD created_on timestamp DEFAULT CURRENT_TIMESTAMP;
+
+
+
+//drop / delete a table
+DROP TABLE teachers123;
+
+
+
+-------CRUD------
+# Create
+
+//insert row
+INSERT INTO teachers(mobile, teacher_name) VALUES('1111', 't1');
+
+Output:  1 row inserted.
+Inserted row id: 1 
+
+#Retreive
+
+SELECT * FROM `teachers`
+
+#Update
+UPDATE `teachers` SET `mobile`='22222' WHERE `teacher_name`='t1'
+
+Output: 1 row affected
+
+#Delete
+DELETE FROM `teachers`
+
+
+
+//interlinking classes with teachers id
+INSERT INTO classes(class_name, teacher_id) VALUES('class 1', 1);
+
+----Delete----
+it only delete the record in table
+It can not reset the primary key-auto_increment value
+
+solution: Truncate table
+Truncate Table classes  // it reset the table
+
+
+//insert into students
+INSERT INTO `students`(`id`, `name`, `class_id`, `email`) VALUES (1,'student 1',1, 'abcd@1234.com');

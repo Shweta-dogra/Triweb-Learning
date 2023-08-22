@@ -48,3 +48,13 @@
   4. promise: promise syntax & execution, promise chaining
   5. callback
   6. Rest & spread operator
+  7. Frontend Project
+
+  # 22 Aug 23
+  1. Created a basic table
+  2. inserted row
+  3. implemented auto insertion
+  4. added row, edited table, drop table
+  5. Difference b/w primary key & foreign key
+  6. Performed CRUD operations
+  7. Truncate table
