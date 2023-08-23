@@ -64,3 +64,37 @@ FOREIGN KEY(class_id) REFERENCES classes(id)
    order by class_id
 
 =>SELECT * FROM students WHERE class_id <> 1 order by class_id desc
+
+=>SELECT * FROM students WHERE class_id=4 limit 2;
+
+=>select max(salary) from teachers;
+
+=>select min(salary) from teachers;
+
+=>select count(id) as number_of_teachers from teachers;
+
+=>select avg(salary) as Average_salary from teachers;
+
+=>select sum(salary) as Sum_salary from teachers;
+
+//like operator _for single character % for multiple character
+=>select * from students where student_name like 'A_ay';
+
+=>select * from students where student_name like 'A%';
+
+//get all students whose class i 1, 2 or 3
+
+=>select * from students where class_id in(1, 2, 3);
+
+//second highest salary
+=>select max(salary) from teachers where salary not in (select max(salary) from teachers);
+
+=>select * from teachers where salary between 2000 and 5000;
+
+//left join
+=>select * from classes cl left join teachers tr on cl.teacher_id = tr.id;
+
+=>select cl.class_name, tr.teacher_name as class_teacher from classes cl
+   left join teachers tr on cl.teacher_id=tr.id; 
+
+
