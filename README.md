@@ -65,4 +65,6 @@
 
   12. Installation of mysql workbench on windows
   13. working on mySQL workbench (mySQL-day2.txt)
-  14. 
+  
+  # 23 Aug 23
+  1. MySQL workbench queries

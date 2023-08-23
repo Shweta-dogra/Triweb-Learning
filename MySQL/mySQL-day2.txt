@@ -97,4 +97,34 @@ FOREIGN KEY(class_id) REFERENCES classes(id)
 =>select cl.class_name, tr.teacher_name as class_teacher from classes cl
    left join teachers tr on cl.teacher_id=tr.id; 
 
+//union operator
+=>select student_name from students union select teacher_name from teacher;
+ 
+//group by clause
+=>select *, class_id from students group by class_id; 
+
+=>select class_id, count(*) as number_of_students from students group by class_id;
+
+//order by
+//find number of students in each class and show the records in descending order of number of students
+=>select class_id, count(*) as number_of_students from students group by class_id
+  order by number_of_students desc
+
+//having clause
+=> select class_id, count(*) as number_of_students from students group by class_id
+   having number_of_students>1;
+
+//insert into select statement
+=> CREATE TABLE teachers_dup( 
+id INT NOT null AUTO_INCREMENT PRIMARY KEY, 
+teacher_name varchar(255) NOT null, 
+mobile varchar(100) NOT null ,
+salary int
+);
+
+//insert record from teacher table to teacher dup
+=>insert into teachers_dup(id, teacher_name, mobile, salary)
+select id, teacher_name, mobile, salary from teachers
+where id =3;
+
 
