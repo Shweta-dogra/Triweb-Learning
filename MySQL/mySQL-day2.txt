@@ -36,4 +36,31 @@ PRIMARY KEY(id),
 FOREIGN KEY(class_id) REFERENCES classes(id)
 );
 
-=>
+=>insert into teachers(teacher_name, mobile, salary) values('Ajay', '1234', 5000);
+
+=>insert into teachers(teacher_name, mobile, salary) values('Ajit', '1234', 5000);
+
+//insert into statement- multiple records
+=>insert into teachers(teacher_name, mobile, salary) values('Vijay', '5678', 6000), ('Azhar', '1428', 4000);
+
+=>insert into teachers values(4, 'Vinayak', '5038', 5000);
+
+=>insert into classes(class_name, teacher_id) values('class 1', 1), ('class 2', 2), ('class 3', 3), ('class 4', 4);
+
+=>update classes SET class_name='class 5' where id=1;  //where clause
+
+=>insert into students(student_name, mobile, class_id) values('Ajay', '12345', 1), ('Abhay', '3452', 2), ('Anita', '9823', 3), ('Rehan', '7297', 4);
+
+//AND OR, NOT operators
+=>SELECT * FROM students WHERE class_id=1 OR class_id=2;
+
+=>SELECT * FROM students WHERE class_id=1 AND mobile='1234';
+
+=>SELECT * FROM students WHERE class_id <> 1;
+
+//ORDER (ASC/DESC)
+
+=>SELECT * FROM students WHERE class_id <> 1
+   order by class_id
+
+=>SELECT * FROM students WHERE class_id <> 1 order by class_id desc
