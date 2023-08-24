@@ -78,3 +78,10 @@
   - Block Scoper variables
   - Arrow functions
   - Default features & rest parameters
+  - Spread operator
+  - Template Literals
+  - Extended literals (custom interpolation.js)
+  - property shorthand
+  - method properties
+  - Array Destructuring
+  - Object destructuring
