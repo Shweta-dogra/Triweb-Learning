@@ -1,28 +1,65 @@
 # Triweb-Learning
 
 # HTML
- 1. Registration form implemented by html forms
- 2. Table implemented by html tables
+ 1. HTML Form: Registration form implemented by html forms
+ 2. Time Table: Table implemented by html tables
 
  # CSS
  Css for html form and table
 
- # Javascript programs
- 16 Aug 23: Done some basic programs on javascript. Implemented conditional operators and comparartors, image changer program, program to validate user name.
-
- # Javascript is case sensitive and unicode
- Variables: A js identifier must start with a letter, underscore or dollar sign. Sunsequent charachters can also be digits(0-9).
+ # Javascript
+ 1. case sensitive and unicode: 
+ - Variables: A js identifier must start with a letter, underscore or dollar sign. Sunsequent charachters can also be digits(0-9).
  Variable hoisting, variable scope, global variable, function hoisting
 
-  # 17 Aug 23
-  1. Labelled statements with break and continue.
-  2. For-in, For-of, FOr-each loop implementation.
-  3. Functions: Declaring / defining functions, scope of function, calling a function, pass by value, pass by reference, function expression, condition based function creation, function hoisting and calling, recursion(3 ways of recursion)
-  4. User input:  Using prompt, using html input box
-  5. Nested Function: Implementation and usage
-  6. Closure: Usage, Name conflicts.
-  7. Function: parameters, rest operator, arguments
-  8. Arrow function(Usage & syntax), some predefined functions and default parameters
+ 2. Functions
+ - Declaring / defining functions, scope of function, calling a function, pass by value, pass by reference, function expression,    condition based function creation, function hoisting and calling, recursion(3 ways of recursion)
+
+ 3. Day1:
+ - Data types and data type conversion
+ - Conditional Statements
+ - Labelled statements with break & continue
+ - Exception handling
+ - Literals
+ - Loops and various for loops
+
+ 4. Day2-Functions:
+ - Function expression
+ - Function hoisting
+ - Conditional functions
+ - Arrow functions and predefined functions
+ - Function parameters & rest arguments
+ - default parameters
+ - nested functions
+ - closures
+ - name conflicts in closures
+ - recurssion
+ - get input from user
+
+ 5. Day3- Arrays
+ - indexed collections
+ - Array methods
+ - map, filter, reduce 
+ - every, some
+ - iterating array
+ - sort, reverse
+ - populating array & length property of array
+ - replacing elements of array
+ - multi dimensional array
+
+ 6. Day3- JS Text Formatting
+ - Text FOrmatting
+ - Escape sequences: Hexadecimal and unicode escape sequences
+ - String literals
+ - String objects
+ - methods of string objects
+ - toLowerCase, toUpperCase
+ - String concatenation
+ - split sting, slice string
+ - replace & replaceAll method
+ - multiline & embedded 
+
+ 7. Day3- Numbers & Dates
 
   # 18 Aug 23
   1. Operators: Assignment, arithmetic, relational (in, instance of), logical, bitwise, conditional, comma.
@@ -33,12 +70,7 @@
   6. Date object
   7. JS text formatting and string literals
   8. Escape sequences: Hexadecimal and unicode escape sequences
-  9. String objects: Methods of strings(concatenation, splitting, slice, substring, replace, replaceAll, toLowerCase, toUpperCase and trim)
-  10. Template Literals: Multiline template and embedded expressions.
-  11. Regular Expression: Writing and usage.
-  12. replace using regex
-  13. Indexed COllection: 3 ways of creating array, populating array, understanding length, iterationg array
-  14. Methods of array: concat, join, push, pop, shift, unshift, slice, splice, replace elements of an array, sort, reverse, index of
+  9. 
 
   # 19 Aug 23
   1. Methods of array: map, filter, reduce, every, some
@@ -88,3 +120,12 @@
   - deep object matching
   - context matching
   - fail-soft destructuring
+  - map Object keys
+  - set Objects
+  - for of loop : string to array
+  - Classes : JS class implementation
+  - promise: Es6 feature promise with example
+  - symbols: use & advantages(preserves hidden data), global symbol
+  - String .includes method, starts with method, ends with method(string includes.js)
+  - Array related features of es6 (array.js): string=>array, arguments=>array
+  - 
