@@ -60,17 +60,27 @@
  - multiline & embedded 
 
  7. Day3- Numbers & Dates
+ - date
+ - math object
+ - numbers
+ - number object methods
+ - digital clock
 
-  # 18 Aug 23
-  1. Operators: Assignment, arithmetic, relational (in, instance of), logical, bitwise, conditional, comma.
-  2. Array destructuring
-  3. Types of expressions and their use: Arithmetic, string, logical, primary(this), left hand side(new, super).
-  4. Numbers: Numeric ssystems, number object & properties, methods of numbers.
-  5. Math object and number object
-  6. Date object
-  7. JS text formatting and string literals
-  8. Escape sequences: Hexadecimal and unicode escape sequences
-  9. 
+ 8. Day3- Operators
+ - comparison operators
+ - relational operators
+ - conditional & comma operators
+ - bitwise operator
+ - destructuring : array destructuring
+ - this
+ - destructuring
+
+ 9. Day3 - Regular Expression
+ - regex: creating and usage of regular expression
+ - replace: replace function using regex
+ - exec: exec funxtion
+
+
 
   # 19 Aug 23
   1. Methods of array: map, filter, reduce, every, some
@@ -128,4 +138,6 @@
   - symbols: use & advantages(preserves hidden data), global symbol
   - String .includes method, starts with method, ends with method(string includes.js)
   - Array related features of es6 (array.js): string=>array, arguments=>array
-  - 
+  - Math: Methods of math introduced by es6
+  - Numbers: Methods & properties of numbers
+  - Global methods (isFInite(), isNan())
