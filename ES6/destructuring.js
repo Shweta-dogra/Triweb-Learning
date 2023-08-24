@@ -25,3 +25,21 @@
  var {sname, age, level} = getSTudent();
 
  console.log(sname, age, level); //Shardha 28 BA1
+
+
+ //deep object matching
+
+ function getData(){
+    let obj = {
+        ename: "elaija",
+        salary: 100000,
+        location:{
+            city: "Banglore"
+        }
+    }
+    return obj;
+ }
+
+ var {ename: employeeName, salary: employeeSalary, location:{city: ecity}} = getData();
+
+ console.log("ename: ", employeeName, "salary: ", employeeSalary, "location: ", ecity);

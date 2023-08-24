@@ -85,3 +85,6 @@
   - method properties
   - Array Destructuring
   - Object destructuring
+  - deep object matching
+  - context matching
+  - fail-soft destructuring
