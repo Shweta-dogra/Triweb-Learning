@@ -94,26 +94,32 @@
   4. promise: promise syntax & execution, promise chaining
   5. callback
   6. Rest & spread operator
-  7. Frontend Project
-
-  # 22 Aug 23
-  1. Created a basic table
-  2. inserted row
-  3. implemented auto insertion
-  4. added row, edited table, drop table
-  5. Difference b/w primary key & foreign key
-  6. Performed CRUD operations
-  7. Truncate table
-  8. Fetching data of table
-  9. Create object of table
-  10. change name of column while fetching data
-  11. joining tables
-
-  12. Installation of mysql workbench on windows
-  13. working on mySQL workbench (mySQL-day2.txt)
   
-  # 23 Aug 23
-  1. MySQL workbench queries
+
+  # Projects
+  1. Frontend Project:
+  - HTML FILE: Divided into two parts: 1-Upper part which containes 4 div blocks & 2-Buttons part which contains an input field for user input & buttons
+  - CSS FILE: 
+  - JAVASCRIPT FILE: Implemented functionality like add user, delete user & move it in the 4 blocks.
+
+  # MySQL
+  1. mySQL_work:
+  - Created a basic table
+  - inserted row
+  - implemented auto insertion
+  - added row, edited table, drop table
+  - Difference b/w primary key & foreign key
+  - Performed CRUD operations
+
+  2. mySQL-day2
+  - Truncate table
+  - Fetching data of table
+  - Create object of table
+  - change name of column while fetching data
+  - joining tables
+  - Installation of mysql workbench on windows
+  - working on mySQL workbench (mySQL-day2.txt)
+  - MySQL workbench queries
 
   # ES6
   - COnstants
@@ -141,3 +147,9 @@
   - Math: Methods of math introduced by es6
   - Numbers: Methods & properties of numbers
   - Global methods (isFInite(), isNan())
+
+  # Node JS
+  1. WorkShop_1:
+  - package.js: holds important information of the document and dependencies
+  - app.js : Express, REST API, basic calculatins using get method of rest api
+
