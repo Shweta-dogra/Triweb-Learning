@@ -1,0 +1,16 @@
+==> create
+ CREATE TABLE `workshop`. `users`(`id` INT(11) NOT NULL AUTO_INCREMENT, `name` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `password` varchar(100) NOT NULL);
+
+ ==>insert
+INSERT into `users` (`name`, `email`, `password`) VALUES ('shweta', 'abc@123', '1234');
+
+==> select
+SELECT * from `users`;
+SELECT * from `users` WHERE email = 'abc@123';
+
+
+==> Update
+UPDATE `users` SET `password`='abcd' WHERE id = 12;
+
+==>delete
+DELETE from `users` WHERE email = 'abc@123';
