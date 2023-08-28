@@ -7,7 +7,7 @@ module.exports.insert= async(userData)=>{
     let id =0;
 
     try{
-        let query = "INSERT into `users` (`name`, `email`, `password`) VALUES (?, ?, ?)";
+        let query = "INSERT into `usertable` (`name`, `email`, `password`) VALUES (?, ?, ?)";
     
         let result = await db.execute(query, [userData.name, userData.email, userData.password]);
         id = result[0].insertId;
@@ -24,7 +24,7 @@ module.exports.insert= async(userData)=>{
 module.exports.get = async(userData)=>{
     let retData = '';
 try{
-    let query = "SELECT * from `users` WHERE id = ?";
+    let query = "SELECT * from `usertable` WHERE id = ?";
     let result = await db.execute(query, [userData.id]);
     retData = result[0][0];
 }
@@ -38,7 +38,7 @@ return retData;
 module.exports.update = async(userData)=>{
    
 try{
-    let query = "UPDATE `users` SET `password`=? WHERE id = ?";
+    let query = "UPDATE `usertable` SET `password`=? WHERE id = ?";
     let result = await db.execute(query, [userData.password, userData.id]);
     return true;
 }
@@ -52,7 +52,7 @@ catch(error){
 module.exports.deleteUser = async(userData)=>{
     
 try{
-    let query = "DELETE from `users` WHERE id = ?";
+    let query = "DELETE from `usertable` WHERE id = ?";
     let result = await db.execute(query, [userData.id]);
     return true;
 }

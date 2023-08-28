@@ -155,5 +155,9 @@
   2. WorkShop_2
   - CRUD OPerations
   - async-await
+  3. WorkShop_3
+  - Use of Sequelize
+  - Insert, update, delete, get table using sequelize
+  4. TestApp: Debug NodeJS using Chrome Inspect
   
 

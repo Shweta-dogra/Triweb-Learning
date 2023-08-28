@@ -1,0 +1,20 @@
+==> create
+ CREATE TABLE `workshop_mysql`. `usertable`(`id` INT(11) NOT NULL AUTO_INCREMENT, `name` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `password` varchar(100) NOT NULL);
+
+ ==>insert
+INSERT into `usertable` (`name`, `email`, `password`) VALUES ('shweta', 'abc@123', '1234');
+
+==> select
+SELECT * from `usertable`;
+SELECT * from `usertable` WHERE email = 'abc@123';
+
+
+==> Update
+UPDATE `usertable` SET `password`='abcd' WHERE id = 12;
+
+==>delete
+DELETE from `usertable` WHERE email = 'abc@123';
+
+==>alter
+ALTER TABLE `usertable` ADD `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `password`, 
+ADD `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `createdAt`;
