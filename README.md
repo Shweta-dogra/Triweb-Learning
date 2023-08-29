@@ -167,4 +167,7 @@
   4. loops
   5. break statement
   6. continue statement
+  7. list: print elements, add, remove, change elements
+  8. Print tables
+  9. reverse loop
 
