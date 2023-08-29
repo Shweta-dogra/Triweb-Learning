@@ -3,6 +3,7 @@ const userModel = require('../models/user');
 
 //--register
 module.exports.register = async(req, res)=>{
+    console.log(req.body);
    let insertedID = await userModel.insert(req.body);
    console.log("Resp: ", insertedID);
     if(insertedID>0){
