@@ -170,4 +170,7 @@
   7. list: print elements, add, remove, change elements
   8. Print tables
   9. reverse loop
+  10. function
+  11. basic calculator: program for basic calculator
+  12. iteration-recurssion: diff b/w iteration & recurssion
 
