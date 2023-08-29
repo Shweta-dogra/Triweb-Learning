@@ -160,4 +160,11 @@
   - Insert, update, delete, get table using sequelize
   4. TestApp: Debug NodeJS using Chrome Inspect
   
+  # Python(Node-Python)
+  1. Calculator.py: basic calculator add, sub, mul, divide
+  2. condition.py: if else, and or
+  3. even-odd-from-1-10.py: loops and conditions
+  4. loops
+  5. break statement
+  6. continue statement
 
