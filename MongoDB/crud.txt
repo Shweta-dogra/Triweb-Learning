@@ -1,0 +1,20 @@
+==>Insert
+db.mydb.insertOne({name: "Sudhir", mobile:12345})
+
+db.mydb.insertMany([{name: "sam", mobile:12345}, {name: "Sudhir", mobile:12345}, {name: "am", mobile:1235}, {name: "Rani", mobile:1265}])
+
+
+==>R
+db.mydb.find()
+
+db.mydb.find({name: "sam"})
+
+
+==>Update
+db.mydb.updateOne({name:"sam"}, {$set:{mobile:4444}})
+
+
+==>Delete
+db.mydb.deleteOne({name: "sam"})
+
+db.mydb.deleteMany()
