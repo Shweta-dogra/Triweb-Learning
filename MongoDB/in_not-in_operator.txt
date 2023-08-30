@@ -1,0 +1,7 @@
+
+==>find books in price range 400-600
+db.books.find({price:{$in:[400, 600]}})
+
+
+==>find books not in price range 400-600
+db.books.find({price:{$nin:[400, 600]}})

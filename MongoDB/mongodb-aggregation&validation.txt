@@ -1,0 +1,53 @@
+ db.customer.insertOne({cname:"Shivang", mob:1234, location:"mumbai"})
+
+db.books.insertMany([{bname:"qwe", price:432}, {bname:"abc", price:999}, {bname:"ndh", price:563}])
+
+db.customer.updateOne({_id: ObjectId("64ef293ab48a9bf1ee393258")}, {$set:{favBooks: [ObjectId("64ef29d3b48a9bf1ee393259"), 
+ObjectId("64ef29d3b48a9bf1ee39325a"), ObjectId("64ef29d3b48a9bf1ee39325b")]}})
+
+db.customer.aggregate([{$lookup:{from: "books", localField: "favBooks", foreignField: "_id", as: "favoriteBooksData"}}])
+
+
+
+
+
+ db.createCOllection('products', {validator : {
+    $jsonSchema:{ 
+        bsonType: 'Object', 
+        required: ['title', 'pname', 'owner', 'comments'],
+        properties: {
+            title:{
+                bsonType: 'string',
+                description: 'title must be string'
+            },
+            pname:{
+                bsonType: 'string',
+                description: 'pname must be string'
+            },
+            owner: {
+                bsonType: 'ObjectId',
+                description: 'id of customer'
+            },
+            comments:{
+                bsonType: 'string',
+                description: 'comments must be string'
+            }
+        }
+        } 
+    } 
+    })
+
+
+db.insertOne({title: "myproduct", pname: "product001", owner: ObjectId("64ef293ab48a9bf1ee393258"), comments: "hi hellow"})
+
+db.products.find()
+
+db.products.insertMany([{title: "myproduct1", pname: "product002", owner: ObjectId("64ef293ab48a9bf1ee393258"), comments: "hellow"},
+{title: "proproduct", pname: "product003", owner: ObjectId("64ef293ab48a9bf1ee393258"), comments: "hi"}])
+
+
+==>Ordered insert (Making insertion non ordered)
+
+db.products.insertMany([{title: "myproduct1", pname: "product007", owner: ObjectId("64ef293ab48a9bf1ee393258"), comments: "hellow"},
+{pname: "product008", owner: ObjectId("64ef293ab48a9bf1ee393258"), comments: "hi"}, 
+{title: "myproduct1", pname: "product009", owner: ObjectId("64ef293ab48a9bf1ee393258"), comments: "hellow"}],{ordered: false})

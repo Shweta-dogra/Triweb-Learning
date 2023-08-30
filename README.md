@@ -176,4 +176,6 @@
 
   # MongoDB
   1. crud.txt: crud operation commands
+  2. mongodb aggregation & validation
+  3. in & not-in operator
 
