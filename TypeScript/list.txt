@@ -1,0 +1,19 @@
+- Setup Project
+- install yarl npm install -g yarn
+- yarn init
+- yarn add expression
+- yarn add --dev nodemon
+- yarn start
+- yarn start:dev
+
+
+#Convert node js to tsc
+- yarn add TypeScript
+- npm install -g TypeScript
+- tsc --init
+- yarn add --dev @types/node
+- yarn add --dev @types/express
+- module resolution = node in tsconfig.json
+- "outDir": "./dist"
+- 
+- transpile
