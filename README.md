@@ -179,3 +179,6 @@
   2. mongodb aggregation & validation
   3. in & not-in operator
 
+  # TypeScript
+  
+
