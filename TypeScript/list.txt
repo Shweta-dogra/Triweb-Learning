@@ -20,3 +20,12 @@
 
 -return types
 -composite types
+
+
+# Interface : 
+- can not be instantiated - initialized
+- public properties
+
+# Class : 
+- can use to create new objects 
+- public private protected properties
