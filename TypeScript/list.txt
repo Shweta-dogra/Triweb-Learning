@@ -25,7 +25,15 @@
 # Interface : 
 - can not be instantiated - initialized
 - public properties
+- it mergers
 
 # Class : 
 - can use to create new objects 
 - public private protected properties
+- does not merge
+
+
+- union
+- getter & setter property
+- constructor
+- optional properties

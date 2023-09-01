@@ -38,6 +38,36 @@ const checkTypesAndInterface = (req:Request, res:Response)=>{
     }
     const result = updateUserData(myUser);
     res.send(result); 
+
+    
+}
+
+interface Student{
+    name: String,
+    age: Number
+}
+interface Student{
+    level: String
+}
+const mergeInterface = (req:Request, res:Response)=>{
+    const akarsh:Student = {name:"Akarsh", age:30, level:"BTech"}
+}
+
+class Employee{
+    ename: String;
+    salary: Number;
+    constructor(name:String, salary:Number){
+        this.ename = name;
+        this.salary = salary;
+    }
+}
+class EmployeeWIthAge extends Employee{
+    age:Number = 0;
+}
+const relatedToClass=(req:Request, res:Response)=>{
+    const Ram = new EmployeeWIthAge("Ram", 200000);
+    Ram.salary = 300000;
+    Ram.age = 28;
 }
 
 export {registerUser, checkTypesAndInterface};
