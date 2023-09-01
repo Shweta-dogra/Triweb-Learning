@@ -17,3 +17,6 @@
 - "outDir": "./dist"
 - 
 - transpile
+
+-return types
+-composite types
