@@ -1,0 +1,46 @@
+yarn, express , typescript
+
+yarn init 
+yarn add typescript 
+tsc --init 
+
+yarn add @types/express
+
+
+// mydome/user 
+==>get: give user details
+
+//mydome/user/<UserID>
+==>get: give this particular user detail 
+
+//mydome/user/
+==>POST: create user data 
+
+//mydome/user/
+==>PUT: update user data 
+
+//mydomain/user 
+==>PATCH: req.data =>modify
+
+//mydome/user/<ID>
+==>delete: Delete this user 
+
+=>request 
+-------code
+
+
+------------------------------
+install mongodb
+- aggregate
+- insert
+mongoose(ODM: object document model)
+
+--NodeJS - >> MongoDB : connectionString 
+
+=> IP-WhiteListing:
+
+------------------------------
+schema
+=> architecture: name , email, password
+//model
+=>name:user : users
