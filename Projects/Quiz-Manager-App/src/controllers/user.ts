@@ -12,7 +12,7 @@ interface ReturnResponse{
 const registerUser = async(req:Request, res:Response, next:express.NextFunction)=>{
     let resp: ReturnResponse;
     try {
-        const user = new User();
+        const user = new User(req.body);
         const result = await user.save();
         if(!result){
             resp ={ status: "error", message: "No result found", data: {} }
@@ -49,12 +49,19 @@ const getUser = async(req:Request, res:Response)=>{
 const updateUser = async(req:Request, res:Response)=>{
     let resp: ReturnResponse;
     try {
-        const userId = req.body._id;
-        const user = await User.findById(userId);
-        user.name = req.body.name;
-        await user?.save();
-        resp ={status: "error", message: "User updated", data: {user: user}};
-        res.send(resp);
+        // const userId = req.body._id;
+        // let user = await User.findById(userId);
+        // if(!user){
+        //     resp ={status: "error", message: "No user found", data: {}}
+        //     res.send(resp);
+        //    }else{
+        //     resp ={status: "error", message: "User found", data: {user: user}};
+        //     res.send(resp);
+        //    } 
+        // user.name = req.body.name;
+        // await user?.save();
+        // resp ={status: "error", message: "User updated", data: {user: user}};
+        // res.send(resp);
 
     } catch (error) {
         resp ={status: "error",message: "Something went wrong", data: {}}
