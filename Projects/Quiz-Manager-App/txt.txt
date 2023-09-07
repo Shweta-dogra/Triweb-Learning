@@ -44,3 +44,37 @@ schema
 => architecture: name , email, password
 //model
 =>name:user : users
+
+
+#nodemon
+- build effort reduced
+- server start automatically
+- just execute nodemon
+- add extension
+- add folder watch
+- add exec - what command execute
+- customize nodemon.json
+
+
+- password encription using base64 (anyone can decode base64)
+- object key value
+
+- why not encrypt base64 or some encryption which can be decrypted
+
+- use bcryptjs
+-jwt login
+
+=-------------------------------------------------------=
+- middleware---- routes> middlewareY > controller (for verification)
+- middlewareY : authentication::jwt
+- middleware add in .post & .get(), etc methods on routes before forwarding requests to controller
+
+- how to send token jwt from postman(or with request) in authorization(header)
+- how to fetch interface from authorization
+- how to verify and decode it 
+
+- how to apply authorization
+
+- express route error
+- error handling in typescript
+
