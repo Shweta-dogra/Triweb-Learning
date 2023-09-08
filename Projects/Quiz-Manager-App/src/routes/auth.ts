@@ -1,7 +1,7 @@
 import express from 'express';
 import {registerUser,  loginUser, isUserExist} from '../controllers/auth';
 import {body} from 'express-validator';
-import ProjectError from '../helper/projectError';
+
 
 const router = express.Router();
 

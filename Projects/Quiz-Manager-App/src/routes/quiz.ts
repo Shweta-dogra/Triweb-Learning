@@ -5,16 +5,17 @@ import { isAuthenticated } from '../middlewares/isAuth';
 
 const router = express.Router();
 
+
 router.post('/', isAuthenticated, [
     body('name').trim().not().isEmpty()
                 .isLength({ min: 10 }).withMessage("please Enter a Valid Name Minimum 10 char long"),
-    body('questions_list').custom(questions_list => {
+    body('questions_list').custom((questions_list:[]) => {
         if (questions_list.length == 0) {
             return Promise.reject("Enter atleast one Qestion");
         }
         return true;
     }),
-    body('answers').custom(answers => {
+    body('answers').custom((answers:{}) => {
         if (Object.keys(answers).length == 0) {
             return Promise.reject("Enter atleast one answer..");
         }
@@ -27,13 +28,13 @@ router.get('/quizId', isAuthenticated, getQuiz);
 router.put('/', isAuthenticated, [
     body('name').trim().not().isEmpty()
         .isLength({ min: 10 }).withMessage("please Enter a Valid Name Minimum 10 char long"),
-    body('questions_list').custom(questions_list => {
+    body('questions_list').custom((questions_list:[]) => {
         if (questions_list.length == 0) {
             return Promise.reject("Enter atleast one Qestion");
         }
         return true;
     }),
-    body('answers').custom(answers => {
+    body('answers').custom((answers:Object) => {
         if (Object.keys(answers).length == 0) {
             return Promise.reject("Enter atleast one answer..");
         }

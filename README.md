@@ -183,5 +183,8 @@
    Building typescript project from scratch
 
   # Quiz manager application
+  - This application is basically creating and using quiz by different users.
+  - Multiple users can give the quiz.
+  - The user who created the quiz can only update , delete &  publish the quiz
     
 
