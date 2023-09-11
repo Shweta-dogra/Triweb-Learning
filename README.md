@@ -188,3 +188,8 @@
   - The user who created the quiz can only update , delete &  publish the quiz
     
 
+  # React
+  1. my-app
+  - Understanding react flow
+  - Use of states & props
+  - React Routing

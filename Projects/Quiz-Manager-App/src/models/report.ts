@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const schema = mongoose.Schema;
 
-const reportSchema = new schema(
+const resultSchema = new schema(
     {
         userId: {
             type: mongoose.Types.ObjectId,
@@ -27,6 +27,6 @@ const reportSchema = new schema(
     { timestamps: true }
 );
 
-const Report = mongoose.model("Report", reportSchema);
+const Result = mongoose.model("Result", resultSchema);
 
-export default Report;
+export default Result;
