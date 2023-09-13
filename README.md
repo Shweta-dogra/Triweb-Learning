@@ -193,3 +193,4 @@
   - Understanding react flow
   - Use of states & props
   - React Routing
+  - created backend database and connected  it with react to directly create product and that would be saved in db
