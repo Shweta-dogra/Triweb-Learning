@@ -27,27 +27,35 @@ app.post('/product', async(req, res)=>{
    
 })
 
-// mongoose.connect(process.env.CONNECTION_STRING, (err)=>{
-//     if(err){
-//         console.log(err);
-//         return;
-//     }
-//     app.listen(process.env.PORT);
-// })
-
-
-async function startServer(){
+app.get('/product', async(req, res)=>{
     try {
-        // console.log("Connecting...", connectionString);
-        await mongoose.connect(connectionString);
+        console.log("products fetching");
+        const products = await ProductModel.find({});
         
-        app.listen(process.env.PORT, ()=>{
-            console.log("Server Connected");
-        }); 
+        res.send({status: "success", message: products});
     } catch (error) {
         console.log(error);
-        
+        res.send({status: "error", message: error.message});
     }
+   
+})
+
+
+// async function startServer(){
+//     try {
+//         await mongoose.connect(connectionString);
+        
+//         app.listen(process.env.PORT, ()=>{
+//             console.log("Server Connected");
+//         }); 
+//     } catch (error) {
+//         console.log(error);
+        
+//     }
     
-}
-startServer();
+// }
+// startServer();
+mongoose.connect(connectionString).then(() => {
+    app.listen(process.env.PORT);
+    console.log("Server connected");
+  });

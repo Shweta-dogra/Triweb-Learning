@@ -2,3 +2,22 @@
     background-color: blue;
     color: white;
 }
+
+.heartFvt{
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 1;
+    border-image: radial-gradient(red 69%, #000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    background-color: transparent;
+    margin-left: 90%;
+}
+.heartunFvt{
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 1;
+    border-image: radial-gradient(rgb(14, 0, 0) 69%, rgba(1, 0, 0, 0) 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    background-color: transparent;
+    margin-left: 90%;
+}

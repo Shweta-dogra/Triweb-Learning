@@ -1,5 +1,16 @@
 
-header{
+.header{
     background-color: aquamarine;
     color: blueviolet;
+}
+
+.favCount{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 5px;
 }
