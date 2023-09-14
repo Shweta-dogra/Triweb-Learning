@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(141, 141, 141);
+}
+
+.App-header{
+  background-color: blueviolet;
+  color: white;
+}
+.card, .card-img{
+  height: 40rem;
+  position: relative;
+}
+.card-img-overlay{
+  color: rgb(23, 24, 23);
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.App-logo {
+  height: 60vh;
+  max-width: 100%;
+  background-image: url("https://img.freepik.com/free-vector/modern-pet-shop-interior-cartoon_33099-1694.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* aspect-ratio: 3/1; */
+  position: relative;
+}
+.App-Name{
+  background-color: transparent;
+  color: rgb(23, 24, 23);
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.products{
+  padding: 5rem;
+  
+}
+
+
+.full-card{
+  box-shadow: 0px 0px 10px rgb(182, 177, 177);
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgb(237, 237, 237);
+  background-color: rgb(227, 240, 252);
+  width: 80%;
+  height: 13rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+.full-card:nth-child(even){
+  float: right;
+  flex-direction: row-reverse;
+}
+
+.image img{
+  width: 10rem;
+  height: 10rem;
+  
+}
+/* .full-card2{
+  flex-direction: row-reverse;
+} */
+@media (prefers-reduced-motion: no-preference) {
+  /* .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } */
+}
+
+
