@@ -14,6 +14,7 @@ const isAuthenticated = (req: Request, res:Response, next:NextFunction)=>{
             // res.status(401).send("Not Authenticated");  
         }
         const token = authHeader.split(' ')[1];
+        // console.log(token);
         //jwt --> decode using sign
         let decodedToken:{userId: String, iat:Number, exp:Number};
         try {
