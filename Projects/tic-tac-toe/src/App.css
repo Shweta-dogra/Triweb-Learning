@@ -4,5 +4,12 @@
   padding: 2px;
   background-color: transparent;
   outline: none;
-  border: 1px dotted gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  border-bottom: none;
+  border-top: none;
+}
+.board-row{
+  border: 1px solid gray;
+  width: fit-content;
 }
