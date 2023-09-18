@@ -187,6 +187,12 @@
   - Multiple users can give the quiz.
   - The user who created the quiz can only update , delete &  publish the quiz
     
+  # Tic-Tac-Toe 
+  - implemented basic tic-tac-toe game
+  - it is a two player game
+  - we can define status of winner or next player
+  - we can track moves & history and also go back to required move.
+  - we can restart the game & clear the history.
 
   # React
   1. my-app
