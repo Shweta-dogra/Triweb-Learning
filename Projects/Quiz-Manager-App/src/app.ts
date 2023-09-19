@@ -3,6 +3,9 @@ import { Request, Response, NextFunction } from 'express';
 import userRoute from './routes/user';
 import authRoute from './routes/auth';
 import quizRouter from './routes/quiz';
+import examRouter from './routes/exam';
+import reportRouter from './routes/report';
+
 import mongoose from 'mongoose';
 import ProjectError from './helper/projectError';
 
@@ -34,6 +37,10 @@ app.use('/user', userRoute);
  app.use('/auth', authRoute);
 
  app.use('/quiz', quizRouter);
+
+ app.use('/exam', examRouter);
+
+ app.use('/report', reportRouter);
 
  app.use ((err:ProjectError, req:Request, res:Response, next:NextFunction)=>{
     let message:String;

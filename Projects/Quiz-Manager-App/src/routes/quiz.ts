@@ -8,10 +8,10 @@ const router = express.Router();
 
 router.post('/', isAuthenticated, [
     body('name').trim().not().isEmpty()
-                .isLength({ min: 10 }).withMessage("please Enter a Valid Name Minimum 10 char long"),
+                .isLength({ min: 4 }).withMessage("please Enter a Valid Name Minimum 4 char long"),
     body('questions_list').custom((questions_list:[]) => {
         if (questions_list.length == 0) {
-            return Promise.reject("Enter atleast one Qestion");
+            return Promise.reject("Enter atleast one Question");
         }
         return true;
     }),
@@ -23,7 +23,7 @@ router.post('/', isAuthenticated, [
     })
 ], createQuiz);
 
-router.get('/quizId', isAuthenticated, getQuiz);
+router.get('/:quizId', isAuthenticated, getQuiz);
 
 router.put('/', isAuthenticated, [
     body('name').trim().not().isEmpty()
@@ -45,6 +45,6 @@ router.put('/', isAuthenticated, [
 router.delete('/:quizId', isAuthenticated, deleteQuiz);
 
 //publish
-router.patch('/:quizId', isAuthenticated, publishQuiz)
+router.patch('/publish', isAuthenticated, publishQuiz)
 
 export default router;

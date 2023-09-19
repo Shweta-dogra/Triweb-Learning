@@ -42,7 +42,10 @@ router.post('/', [
 ], registerUser);
 
 //login
-router.post('/login', loginUser);
+router.post('/login',[
+    body('email').trim().isEmail()
+    .normalizeEmail()
+], loginUser);
 
 
 export default router;

@@ -42,7 +42,7 @@ const registerUser = (req, res, next) => __awaiter(void 0, void 0, void 0, funct
             res.send(resp);
         }
         else {
-            resp = { status: "success", message: "Registeration Done", data: { userID: result._id } };
+            resp = { status: "success", message: "Registeration Done", data: { userId: result._id } };
             res.send(resp);
         }
     }

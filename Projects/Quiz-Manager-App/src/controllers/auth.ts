@@ -40,7 +40,7 @@ const registerUser = async(req:Request, res:Response, next:NextFunction)=>{
             resp ={ status: "error", message: "No result found", data: {} }
             res.send(resp);
         } else{
-            resp ={ status: "success", message: "Registeration Done", data: {userID: result._id} }
+            resp ={ status: "success", message: "Registeration Done", data: {userId: result._id} }
             res.send(resp);
         }
     } catch (error) {
@@ -69,8 +69,8 @@ const loginUser = async(req:Request, res:Response, next:NextFunction)=>{
             const status = await bcrypt.compare(password, user.password);
             //decide
             if(status){
-                const token = jwt.sign({userID: user._id}, "secretKey", {expiresIn: '1h'})
-                resp ={status: "success",message: "Login Successful", data: {taken:token}}
+                const token = jwt.sign({userId: user._id}, "secretKey", {expiresIn: '2h'})
+                resp ={status: "success",message: "Login Successful", data: {token:token}}
                 res.send(resp); 
             } else{
                 // resp ={status: "error",message: "Credentials mismatch, not login", data: {}}
