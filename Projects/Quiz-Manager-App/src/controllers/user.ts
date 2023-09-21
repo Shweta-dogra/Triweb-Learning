@@ -87,19 +87,17 @@ interface ReturnResponse{
 
 // get-->> get user data
 const getUser = async (req: Request, res: Response, next: NextFunction) => {
-  // console.log("query", req.query);
-  // console.log("params", req.params);
-  // console.log("params", req.params.userId);
+  
   let resp: ReturnResponse;
   try {
     const userId = req.params.userId;
     //==================
-    if (req.userId != req.params.userId) {
-      const err = new projectError("You are not authorized");
-      err.statusCode = 401;
-      err.data = { hi: "It'sError " };
-      throw err;
-    }
+    // if (req.userId != req.params.userId) {
+    //   const err = new projectError("You are not authorized");
+    //   err.statusCode = 401;
+    //   err.data = { hi: "It'sError " };
+    //   throw err;
+    // }
     //============
     const user = await User.findById(userId, { name: 1, email: 1 });
     if (!user) {

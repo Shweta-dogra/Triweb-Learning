@@ -29,7 +29,8 @@ router.post('/', [
             return Promise.reject(err);
         })
     })
-    .normalizeEmail(),
+    // .normalizeEmail()
+    ,
     body('password').trim().isLength({min: 8})
     .withMessage("Enter atleast 8 character long password"),
     body('confirm_password').trim()
@@ -44,7 +45,7 @@ router.post('/', [
 //login
 router.post('/login',[
     body('email').trim().isEmail()
-    .normalizeEmail()
+    // .normalizeEmail()
 ], loginUser);
 
 
