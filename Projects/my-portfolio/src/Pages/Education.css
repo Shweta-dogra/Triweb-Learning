@@ -1,0 +1,31 @@
+.edu, .training{
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    width: 80%;
+}
+h1{
+    text-decoration: underline;
+    color: rgb(131, 182, 182);
+}
+.education{
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(244, 250, 247);
+    border: 0.5px solid rgb(207, 245, 227);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(207, 245, 227);
+}
+/* .education:nth-child(2){
+    float: left;
+} */
+
+@media only screen and (max-width: 600px){
+    .education{
+        width: 95%;
+    }
+}
