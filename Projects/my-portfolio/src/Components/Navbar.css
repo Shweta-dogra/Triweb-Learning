@@ -51,11 +51,14 @@
 
   @media only screen and (max-width: 900px) {
     .navbar a {
-      width: 70px;
+      width: 90px;
     }
   }
   
   @media only screen and (max-width: 600px) {
+    .navbar{
+      height: 10px;
+    }
     .togglebtn {
       display: flex;
     }

@@ -5,6 +5,7 @@ import Experience from "./Pages/Experience";
 import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 import Education from "./Pages/Education";
+import ProjectDisplay from "./Pages/ProjectDisplay";
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Project/>}/>
+        <Route path="/project/:id" element={<ProjectDisplay />} />
         <Route path="/experience" element={<Experience/>}/>
         <Route path="/education" element={<Education/>}/>
       </Routes>

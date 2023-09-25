@@ -10,9 +10,10 @@ function Home(){
             <h2>Hi, I am Shweta</h2>
             <div className="summary">
                 <p>Passionate about web development technologies.</p>
-                <LinkedInIcon/>
-                <EmailIcon/>
-                <GitHubIcon/>
+                <a target='_blank' href='https://www.linkedin.com/in/shweta-dogra-48b201178/'><LinkedInIcon/></a>
+                <a target='_blank' href=''><EmailIcon/></a>
+                <a target='_blank' href='https://github.com/Shweta-dogra'><GitHubIcon/></a>
+                
             </div>
         </div>
         <div className="skills">
@@ -29,6 +30,10 @@ function Home(){
                 <li className='skill-item'>
                     <h2>Languages: </h2>
                     <span>Javascript, Java, Typescript</span>
+                </li>
+                <li className='skill-item'>
+                    <h2>Additional SKills: </h2>
+                    <span>DSA, Git, JIRA</span>
                 </li>
             </ol>
         </div>
