@@ -24,207 +24,206 @@ For example in HTML folder, HTML concepts are implemented.
 ## Overview
 
 * [HTML](./HTML/)
-1. HTML Form: Registration form implemented by html forms
-2. Time Table: Table implemented by html tables
+    1. HTML Form: Registration form implemented by html forms
+    2. Time Table: Table implemented by html tables
 
 
 
- * [CSS](./CSS/)
- Css for html form and table
+* [CSS](./CSS/)
+    - Css for html form and table
 
 * [Javascript](./Javascript/)
- 1. case sensitive and unicode: 
- - Variables: A js identifier must start with a letter, underscore or dollar sign. Sunsequent charachters can also be digits(0-9).
- Variable hoisting, variable scope, global variable, function hoisting
+    1. case sensitive and unicode: 
+        - Variables: A js identifier must start with a letter, underscore or dollar sign. Sunsequent charachters can also be digits(0-9).
+        Variable hoisting, variable scope, global variable, function hoisting
 
- 2. Functions
- - Declaring / defining functions, scope of function, calling a function, pass by value, pass by reference, function expression,    condition based function creation, function hoisting and calling, recursion(3 ways of recursion)
+    2. Functions
+         - Declaring / defining functions, scope of function, calling a function, pass by value, pass by reference, function expression,    condition based function creation, function hoisting and calling, recursion(3 ways of recursion)
 
- 3. Day1:
- - Data types and data type conversion
- - Conditional Statements
- - Labelled statements with break & continue
- - Exception handling
- - Literals
- - Loops and various for loops
+    3. Day1:
+        - Data types and data type conversion
+        - Conditional Statements
+        - Labelled statements with break & continue
+        - Exception handling
+        - Literals
+        - Loops and various for loops
 
- 4. Day2-Functions:
- - Function expression
- - Function hoisting
- - Conditional functions
- - Arrow functions and predefined functions
- - Function parameters & rest arguments
- - default parameters
- - nested functions
- - closures
- - name conflicts in closures
- - recurssion
- - get input from user
+    4. Day2-Functions:
+        - Function expression
+        - Function hoisting
+        - Conditional functions
+        - Arrow functions and predefined functions
+        - Function parameters & rest arguments
+        - default parameters
+        - nested functions
+        - closures
+        - name conflicts in closures
+        - recurssion
+        - get input from user
 
- 5. Day3- Arrays
- - indexed collections
- - Array methods
- - map, filter, reduce 
- - every, some
- - iterating array
- - sort, reverse
- - populating array & length property of array
- - replacing elements of array
- - multi dimensional array
+    5. Day3- Arrays
+        - indexed collections
+        - Array methods
+        - map, filter, reduce 
+        - every, some
+        - iterating array
+        - sort, reverse
+        - populating array & length property of array
+        - replacing elements of array
+        - multi dimensional array
 
- 6. Day3- JS Text Formatting
- - Text FOrmatting
- - Escape sequences: Hexadecimal and unicode escape sequences
- - String literals
- - String objects
- - methods of string objects
- - toLowerCase, toUpperCase
- - String concatenation
- - split sting, slice string
- - replace & replaceAll method
- - multiline & embedded 
+    6. Day3- JS Text Formatting
+        - Text FOrmatting
+        - Escape sequences: Hexadecimal and unicode escape sequences
+        - String literals
+        - String objects
+        - methods of string objects
+        - toLowerCase, toUpperCase
+        - String concatenation
+        - split sting, slice string
+        - replace & replaceAll method
+        - multiline & embedded 
 
- 7. Day3- Numbers & Dates
- - date
- - math object
- - numbers
- - number object methods
- - digital clock
+    7. Day3- Numbers & Dates
+        - date
+        - math object
+        - numbers
+        - number object methods
+        - digital clock
 
- 8. Day3- Operators
- - comparison operators
- - relational operators
- - conditional & comma operators
- - bitwise operator
- - destructuring : array destructuring
- - this
- - destructuring
+    8. Day3- Operators
+        - comparison operators
+        - relational operators
+        - conditional & comma operators
+        - bitwise operator
+        - destructuring : array destructuring
+        - this
+        - destructuring
 
- 9. Day3 - Regular Expression
- - regex: creating and usage of regular expression
- - replace: replace function using regex
- - exec: exec funxtion
+    9. Day3 - Regular Expression
+        - regex: creating and usage of regular expression
+        - replace: replace function using regex
+        - exec: exec funxtion
 
-10. Day4- Collections& Keyed Collections
-  - Methods of array: map, filter, reduce, every, some
-  - Multi dimensional array
-  - Keyed collections
-  - Keyed collection: Map, WeakMap, set, conversion of array to set, comparison b/w array & set, weakSet, object, object enumerate, __proto & prototype, define object methods, getter & setter, deleting property of an object
-  - Class v/s prototype based language
-  - Prototype based inheritance
+    10. Day4- Collections& Keyed Collections
+        - Methods of array: map, filter, reduce, every, some
+        - Multi dimensional array
+        - Keyed collections
+        - Keyed collection: Map, WeakMap, set, conversion of array to set, comparison b/w array & set, weakSet, object, object enumerate, __proto & prototype, define object methods, getter & setter, deleting property of an object
+        - Class v/s prototype based language
+        - Prototype based inheritance
 
-  11. Day5- Promises
-  - promise: promise syntax & execution, promise chaining
-  - callback
-  - Rest & spread operator
+    11. Day5- Promises
+        - promise: promise syntax & execution, promise chaining
+        - callback
+        - Rest & spread operator
 
   * [MySQL](./MySQL/)
-  1. mySQL_work:
-  - Created a basic table
-  - inserted row
-  - implemented auto insertion
-  - added row, edited table, drop table
-  - Difference b/w primary key & foreign key
-  - Performed CRUD operations
+    1. mySQL_work:
+        - Created a basic table
+        - inserted row
+        - implemented auto insertion
+        - added row, edited table, drop table
+        - Difference b/w primary key & foreign key
+        - Performed CRUD operations
 
-  2. mySQL-day2
-  - Truncate table
-  - Fetching data of table
-  - Create object of table
-  - change name of column while fetching data
-  - joining tables
-  - Installation of mysql workbench on windows
-  - working on mySQL workbench (mySQL-day2.txt)
-  - MySQL workbench queries
+    2. mySQL-day2
+        - Truncate table
+        - Fetching data of table
+        - Create object of table
+        - change name of column while fetching data
+        - joining tables
+        - Installation of mysql workbench on windows
+        - working on mySQL workbench (mySQL-day2.txt)
+        - MySQL workbench queries
 
   * [ES6](./ES6/)
-  - Constants
-  - Block Scoped variables
-  - Arrow functions
-  - Default features & rest parameters
-  - Spread operator
-  - Template Literals
-  - Extended literals (custom interpolation.js)
-  - property shorthand
-  - method properties
-  - Array Destructuring
-  - Object destructuring
-  - deep object matching
-  - context matching
-  - fail-soft destructuring
-  - map Object keys
-  - set Objects
-  - for of loop : string to array
-  - Classes : JS class implementation
-  - promise: Es6 feature promise with example
-  - symbols: use & advantages(preserves hidden data), global symbol
-  - String .includes method, starts with method, ends with method(string includes.js)
-  - Array related features of es6 (array.js): string=>array, arguments=>array
-  - Math: Methods of math introduced by es6
-  - Numbers: Methods & properties of numbers
-  - Global methods (isFInite(), isNan())
+    - Constants & Block Scoped variables
+    - Arrow functions
+    - Default features & rest and Spread operator
+    - Template Literals & Extended literals (custom interpolation.js)
+    - property shorthand
+    - method properties
+    - Destructuring (Array & object)
+    - deep object matching & context matching
+    - fail-soft destructuring
+    - map Object keys
+    - set Objects
+    - for of loop : string to array
+    - Classes : JS class implementation
+    - promise: Es6 feature promise with example
+    - symbols: use & advantages(preserves hidden data), global symbol
+    - String .includes method, starts with method, ends with method(string includes.js)
+    - Array related features of es6 (array.js): string=>array, arguments=>array
+    - Math: Methods of math introduced by es6
+    - Numbers: Methods & properties of numbers
+    - Global methods (isFInite(), isNan())
 
- * [NodeJS](./NodeJS/)
+* [NodeJS](./NodeJS/)
   1. WorkShop_1:
-  - package.js: holds important information of the document and dependencies
-  - app.js : Express, REST API, basic calculatins using get method of rest api
+    - package.js: holds important information of the document and dependencies
+    - app.js : Express, REST API, basic calculatins using get method of rest api
   2. WorkShop_2
-  - CRUD OPerations
-  - async-await
+    - CRUD OPerations
+    - async-await
   3. WorkShop_3
-  - Use of Sequelize
-  - Insert, update, delete, get table using sequelize
+    - Use of Sequelize
+    - Insert, update, delete, get table using sequelize
   4. TestApp: Debug NodeJS using Chrome Inspect
   
-  * [Python(Node-Python)](./Node-Python/)
-  1. Calculator.py: basic calculator add, sub, mul, divide
-  2. condition.py: if else, and or
-  3. even-odd-from-1-10.py: loops and conditions
-  4. loops
-  5. break statement
-  6. continue statement
-  7. list: print elements, add, remove, change elements
-  8. Print tables
-  9. reverse loop
-  10. function
-  11. basic calculator: program for basic calculator
-  12. iteration-recurssion: diff b/w iteration & recurssion
+* [Python(Node-Python)](./Node-Python/)
+  - Calculator.py: basic calculator add, sub, mul, divide
+  - condition.py: if else, and or
+  - even-odd-from-1-10.py: loops and conditions
+  - break statement & continue statement
+  - list: print elements, add, remove, change elements
+  - Print tables, reverse loop & function
+  - iteration-recurssion: diff b/w iteration & recurssion
 
 * [MongoDB](./MongoDB/)
-  1. crud.txt: crud operation commands
-  2. mongodb aggregation & validation
-  3. in & not-in operator
+  - crud.txt: crud operation commands
+  - mongodb aggregation & validation
+  - in & not-in operator
 
-  * [TypeScript](./TypeScript/)
-   Building typescript project from scratch
+* [TypeScript](./TypeScript/)
+    - Building typescript project from scratch
 
-  * [React](./React/)
+* [React](./React/)
   1. my-app
-  - Understanding react flow
-  - Use of states & props
-  - React Routing
-  - created backend database and connected  it with react to directly create product and that would be saved in db
-  - created a favourites page to show favourite items
+    - Understanding react flow & Use of states & props
+    - created backend database and connected  it with react to directly create product and that would be saved in db
+    - created a favourites page to show favourite items
 
   2. react-router
-  - Creating routers , working on links
-  - Combining routers with backend api
+    - Creating routers , working on links
+    - Combining routers with backend api
 
-  * [Projects](./Projects/)
+* [Projects](./Projects/)
 
   ### Frontend Project:
-  - HTML FILE: Divided into two parts: 1-Upper part which containes 4 div blocks & 2-Buttons part which contains an input field for user input & buttons
-  - CSS FILE: 
-  - JAVASCRIPT FILE: Implemented functionality like add user, delete user & move it in the 4 blocks.
+    [GotoFrontendProject](./Projects/Project-Forntend%20JS/)
+    - HTML FILE: Divided into two parts: 1-Upper part which containes 4 div blocks & 2-Buttons part which contains an input field for  user input & buttons
+    - CSS FILE: 
+    - JAVASCRIPT FILE: Implemented functionality like add user, delete user & move it in the 4 blocks.
 
   ### Quiz manager application
-  - This application is basically creating and using quiz by different users.
-  - Multiple users can give the quiz.
-  - The user who created the quiz can only update , delete &  publish the quiz
+    [GotoApplication](./Projects/Quiz-Manager-App/)
+    - This application is basically creating and using quiz by different users.
+    - Multiple users can give the quiz and get their result.
+    - The user who created the quiz can only update , delete &  publish the quiz
     
   ### Tic-Tac-Toe 
-  - implemented basic tic-tac-toe game
-  - it is a two player game
-  - we can define status of winner or next player
-  - we can track moves & history and also go back to required move.
-  - we can restart the game & clear the history.
+    [GotoTic-Tac-Toe](./Projects/tic-tac-toe/)
+    - implemented basic tic-tac-toe game
+    - it is a two player game
+    - we can define status of winner or next player
+    - we can track moves & history and also go back to required move.
+    - we can restart the game & clear the history.
+
+  ### Pet Adoption React-Bootstrap Project
+    [GotoAdoptionProject](./Projects/React-Project-Pet-Adoption/)
+    - It is a basic react project for understand react & bootstrap concepts
+
+  ### My Portfolio
+    [GotoMyPortfolio](./Projects/my-portfolio/)
+    - It is a react project in which my portfolio is implemented
