@@ -17,7 +17,7 @@ function ProjectDisplay(){
         <b>Tech Stack:</b> {project.skills}
       </p>
       <p><b>Features: </b>{project.feature}</p>
-      {/* <a target="_blank"><GitHubIcon /></a> */}
+      <a target="_blank" href={project.githubLink}><GitHubIcon /></a>
       <a target="_blank" href={project.deployLink}><LinkIcon/></a>
       
     </div>

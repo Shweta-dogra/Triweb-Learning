@@ -1,4 +1,25 @@
-# Triweb-Learning
+# 3 Month Internship Program
+
+![Banner](Banner.jpg)
+
+This is a 3 month MERN Stack developer internship. During this internship I get familiar with various tech-stacks and worked on different projects. These different concepts are implemented in this repository.
+
+## How to use this repository
+    Different concepts are implemented in different folders. In this repository I have learned and implemented different technologies.
+    For example in HTML folder, HTML concepts are implemented.
+
+### Following are the links to different folders:
+* [HTML](./HTML/)
+* [CSS](./CSS/)
+* [Javascript](./Javascript/)
+* [ES6](./ES6/)
+* [MySQL](./MySQL/)
+* [NodeJS](./NodeJS/)
+* [MongoDB](./MongoDB/)
+* [TypeScript](./TypeScript/)
+* [React](./React/)
+* [Projects](./Projects/)
+
 
 # HTML
  1. HTML Form: Registration form implemented by html forms
