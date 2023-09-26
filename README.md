@@ -5,30 +5,34 @@
 This is a 3 month MERN Stack developer internship. During this internship I get familiar with various tech-stacks and worked on different projects. These different concepts are implemented in this repository.
 
 ## How to use this repository
-    Different concepts are implemented in different folders. In this repository I have learned and implemented different technologies.
-    For example in HTML folder, HTML concepts are implemented.
+Different concepts are implemented in different folders. In this repository I have learned and implemented different technologies.
+For example in HTML folder, HTML concepts are implemented.
 
-### Following are the links to different folders:
+## Following are the links to different folders:
 * [HTML](./HTML/)
 * [CSS](./CSS/)
 * [Javascript](./Javascript/)
 * [ES6](./ES6/)
 * [MySQL](./MySQL/)
 * [NodeJS](./NodeJS/)
+* [Python(Node-Python)](./Node-Python/)
 * [MongoDB](./MongoDB/)
 * [TypeScript](./TypeScript/)
 * [React](./React/)
 * [Projects](./Projects/)
 
+## Overview
 
-# HTML
- 1. HTML Form: Registration form implemented by html forms
- 2. Time Table: Table implemented by html tables
+* [HTML](./HTML/)
+1. HTML Form: Registration form implemented by html forms
+2. Time Table: Table implemented by html tables
 
- # CSS
+
+
+ * [CSS](./CSS/)
  Css for html form and table
 
- # Javascript
+* [Javascript](./Javascript/)
  1. case sensitive and unicode: 
  - Variables: A js identifier must start with a letter, underscore or dollar sign. Sunsequent charachters can also be digits(0-9).
  Variable hoisting, variable scope, global variable, function hoisting
@@ -101,29 +105,20 @@ This is a 3 month MERN Stack developer internship. During this internship I get 
  - replace: replace function using regex
  - exec: exec funxtion
 
+10. Day4- Collections& Keyed Collections
+  - Methods of array: map, filter, reduce, every, some
+  - Multi dimensional array
+  - Keyed collections
+  - Keyed collection: Map, WeakMap, set, conversion of array to set, comparison b/w array & set, weakSet, object, object enumerate, __proto & prototype, define object methods, getter & setter, deleting property of an object
+  - Class v/s prototype based language
+  - Prototype based inheritance
 
+  11. Day5- Promises
+  - promise: promise syntax & execution, promise chaining
+  - callback
+  - Rest & spread operator
 
-  # 19 Aug 23
-  1. Methods of array: map, filter, reduce, every, some
-  2. Multi dimensional array
-  3. Keyed collections
-
-  # 21 Aug 23
-  1. Keyed collection: Map, WeakMap, set, conversion of array to set, comparison b/w array & set, weakSet, object, object enumerate, __proto & prototype, define object methods, getter & setter, deleting property of an object
-  2. Class v/s prototype based language
-  3. Prototype based inheritance
-  4. promise: promise syntax & execution, promise chaining
-  5. callback
-  6. Rest & spread operator
-  
-
-  # Projects
-  1. Frontend Project:
-  - HTML FILE: Divided into two parts: 1-Upper part which containes 4 div blocks & 2-Buttons part which contains an input field for user input & buttons
-  - CSS FILE: 
-  - JAVASCRIPT FILE: Implemented functionality like add user, delete user & move it in the 4 blocks.
-
-  # MySQL
+  * [MySQL](./MySQL/)
   1. mySQL_work:
   - Created a basic table
   - inserted row
@@ -142,9 +137,9 @@ This is a 3 month MERN Stack developer internship. During this internship I get 
   - working on mySQL workbench (mySQL-day2.txt)
   - MySQL workbench queries
 
-  # ES6
-  - COnstants
-  - Block Scoper variables
+  * [ES6](./ES6/)
+  - Constants
+  - Block Scoped variables
   - Arrow functions
   - Default features & rest parameters
   - Spread operator
@@ -169,7 +164,7 @@ This is a 3 month MERN Stack developer internship. During this internship I get 
   - Numbers: Methods & properties of numbers
   - Global methods (isFInite(), isNan())
 
-  # Node JS
+ * [NodeJS](./NodeJS/)
   1. WorkShop_1:
   - package.js: holds important information of the document and dependencies
   - app.js : Express, REST API, basic calculatins using get method of rest api
@@ -181,7 +176,7 @@ This is a 3 month MERN Stack developer internship. During this internship I get 
   - Insert, update, delete, get table using sequelize
   4. TestApp: Debug NodeJS using Chrome Inspect
   
-  # Python(Node-Python)
+  * [Python(Node-Python)](./Node-Python/)
   1. Calculator.py: basic calculator add, sub, mul, divide
   2. condition.py: if else, and or
   3. even-odd-from-1-10.py: loops and conditions
@@ -195,30 +190,41 @@ This is a 3 month MERN Stack developer internship. During this internship I get 
   11. basic calculator: program for basic calculator
   12. iteration-recurssion: diff b/w iteration & recurssion
 
-  # MongoDB
+* [MongoDB](./MongoDB/)
   1. crud.txt: crud operation commands
   2. mongodb aggregation & validation
   3. in & not-in operator
 
-  # TypeScript
+  * [TypeScript](./TypeScript/)
    Building typescript project from scratch
 
-  # Quiz manager application
-  - This application is basically creating and using quiz by different users.
-  - Multiple users can give the quiz.
-  - The user who created the quiz can only update , delete &  publish the quiz
-    
-  # Tic-Tac-Toe 
-  - implemented basic tic-tac-toe game
-  - it is a two player game
-  - we can define status of winner or next player
-  - we can track moves & history and also go back to required move.
-  - we can restart the game & clear the history.
-
-  # React
+  * [React](./React/)
   1. my-app
   - Understanding react flow
   - Use of states & props
   - React Routing
   - created backend database and connected  it with react to directly create product and that would be saved in db
   - created a favourites page to show favourite items
+
+  2. react-router
+  - Creating routers , working on links
+  - Combining routers with backend api
+
+  * [Projects](./Projects/)
+
+  ### Frontend Project:
+  - HTML FILE: Divided into two parts: 1-Upper part which containes 4 div blocks & 2-Buttons part which contains an input field for user input & buttons
+  - CSS FILE: 
+  - JAVASCRIPT FILE: Implemented functionality like add user, delete user & move it in the 4 blocks.
+
+  ### Quiz manager application
+  - This application is basically creating and using quiz by different users.
+  - Multiple users can give the quiz.
+  - The user who created the quiz can only update , delete &  publish the quiz
+    
+  ### Tic-Tac-Toe 
+  - implemented basic tic-tac-toe game
+  - it is a two player game
+  - we can define status of winner or next player
+  - we can track moves & history and also go back to required move.
+  - we can restart the game & clear the history.
