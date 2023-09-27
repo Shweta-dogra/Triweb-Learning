@@ -41,132 +41,14 @@ Navigate through the folders and files within this repository to access the prog
 * [CSS](./CSS/readme.md)
     Css for html form and table
 
-* [Javascript](./Javascript/)
-    1. case sensitive and unicode: 
-        - Variables: A js identifier must start with a letter, underscore or dollar sign. Sunsequent charachters can also be digits(0-9).
-        Variable hoisting, variable scope, global variable, function hoisting
+* [Javascript](./Javascript/readme.md)
+    Core javascript concepts and their implementation. Diffrent features and building blocks of javascript.
 
-    2. Functions
-         - Declaring / defining functions, scope of function, calling a function, pass by value, pass by reference, function expression,    condition based function creation, function hoisting and calling, recursion(3 ways of recursion)
-
-    3. Day1:
-        - Data types and data type conversion
-        - Conditional Statements
-        - Labelled statements with break & continue
-        - Exception handling
-        - Literals
-        - Loops and various for loops
-
-    4. Day2-Functions:
-        - Function expression
-        - Function hoisting
-        - Conditional functions
-        - Arrow functions and predefined functions
-        - Function parameters & rest arguments
-        - default parameters
-        - nested functions
-        - closures
-        - name conflicts in closures
-        - recurssion
-        - get input from user
-
-    5. Day3- Arrays
-        - indexed collections
-        - Array methods
-        - map, filter, reduce 
-        - every, some
-        - iterating array
-        - sort, reverse
-        - populating array & length property of array
-        - replacing elements of array
-        - multi dimensional array
-
-    6. Day3- JS Text Formatting
-        - Text FOrmatting
-        - Escape sequences: Hexadecimal and unicode escape sequences
-        - String literals
-        - String objects
-        - methods of string objects
-        - toLowerCase, toUpperCase
-        - String concatenation
-        - split sting, slice string
-        - replace & replaceAll method
-        - multiline & embedded 
-
-    7. Day3- Numbers & Dates
-        - date
-        - math object
-        - numbers
-        - number object methods
-        - digital clock
-
-    8. Day3- Operators
-        - comparison operators
-        - relational operators
-        - conditional & comma operators
-        - bitwise operator
-        - destructuring : array destructuring
-        - this
-        - destructuring
-
-    9. Day3 - Regular Expression
-        - regex: creating and usage of regular expression
-        - replace: replace function using regex
-        - exec: exec funxtion
-
-    10. Day4- Collections& Keyed Collections
-        - Methods of array: map, filter, reduce, every, some
-        - Multi dimensional array
-        - Keyed collections
-        - Keyed collection: Map, WeakMap, set, conversion of array to set, comparison b/w array & set, weakSet, object, object enumerate, __proto & prototype, define object methods, getter & setter, deleting property of an object
-        - Class v/s prototype based language
-        - Prototype based inheritance
-
-    11. Day5- Promises
-        - promise: promise syntax & execution, promise chaining
-        - callback
-        - Rest & spread operator
-
-  * [MySQL](./MySQL/)
-    1. mySQL_work:
-        - Created a basic table
-        - inserted row
-        - implemented auto insertion
-        - added row, edited table, drop table
-        - Difference b/w primary key & foreign key
-        - Performed CRUD operations
-
-    2. mySQL-day2
-        - Truncate table
-        - Fetching data of table
-        - Create object of table
-        - change name of column while fetching data
-        - joining tables
-        - Installation of mysql workbench on windows
-        - working on mySQL workbench (mySQL-day2.txt)
-        - MySQL workbench queries
-
-  * [ES6](./ES6/)
-    - Constants & Block Scoped variables
-    - Arrow functions
-    - Default features & rest and Spread operator
-    - Template Literals & Extended literals (custom interpolation.js)
-    - property shorthand
-    - method properties
-    - Destructuring (Array & object)
-    - deep object matching & context matching
-    - fail-soft destructuring
-    - map Object keys
-    - set Objects
-    - for of loop : string to array
-    - Classes : JS class implementation
-    - promise: Es6 feature promise with example
-    - symbols: use & advantages(preserves hidden data), global symbol
-    - String .includes method, starts with method, ends with method(string includes.js)
-    - Array related features of es6 (array.js): string=>array, arguments=>array
-    - Math: Methods of math introduced by es6
-    - Numbers: Methods & properties of numbers
-    - Global methods (isFInite(), isNan())
+* [MySQL](./MySQL/readme.md)
+    Performing basic crud operations of mysql, creating different tables, fetching data from tables & defining keys.
+    
+* [ES6](./ES6/readme.md)
+    Core concepts of ES6 which make brings new syntax and new awesome features like arrow functions, template strings, class destruction to make our code more modern and more readable.
 
 * [NodeJS](./NodeJS/)
   1. WorkShop_1:

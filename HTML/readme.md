@@ -1,6 +1,6 @@
 # HTML
 
-* [HTML FORM](./Form/Form.html) 
+* [HTML Form](./Form/Form.html) 
     Registration form implemented by html forms. Develop understanding for form elements like input types and submit buttons.
 
 * [Time Table](./Time%20Table/TimeTable.html) 
