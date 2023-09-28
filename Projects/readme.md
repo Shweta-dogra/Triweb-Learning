@@ -4,7 +4,7 @@
     This is basic javascript project to show the functionality of create user, delete user and move user to different blocks.
 
 * [Quiz manager application](./Quiz-Manager-App/readme.md)
-    This is a backend application to create and play quizes.
+    This is a backend application to create and play quizes in which I created REST APIs using node with typescript and mongoDB.
     
 * [Tic-Tac-Toe](./tic-tac-toe/README.md) 
     In this project, I have implemented a basic tic-tac-toe game played by two players

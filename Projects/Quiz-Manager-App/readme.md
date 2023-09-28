@@ -1,10 +1,11 @@
 # Quiz Manager Application
+- Created REST APIs for a quiz app using node with typescript and mongoDB.
 - This application is basically creating and using quiz by different users.
 - Multiple users can give the quiz and get their result.
 - The user who created the quiz only can update , delete &  publish the quiz.
 
 ## Tech Stack Used:
-NodeJS, ExpressJS, Mongoose
+NodeJS, ExpressJS, Typescript, Mongoose
 
 * [Main](./src/app.ts)
     In this file first level of routing , database connection and port configuration is done.
