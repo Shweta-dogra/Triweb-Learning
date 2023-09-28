@@ -15,7 +15,6 @@
 - yarn add --dev @types/express
 - module resolution = node in tsconfig.json
 - "outDir": "./dist"
-- 
 - transpile
 
 -return types

@@ -10,7 +10,7 @@ This repo aims to learn and create. This is for familiarization with various tec
 Navigate through the folders and files within this repository to access the programming resources you're interested in.
 
 
-## Tech Stack
+## Tech Stack Used
 
 **Client:** React, Redux, CSS, HTML, Javascript
 
@@ -19,24 +19,10 @@ Navigate through the folders and files within this repository to access the prog
 **DataBase:** MongoDB, MySQL
 
 
-## Following are the links to different folders:
-* [HTML](./HTML/)
-* [CSS](./CSS/)
-* [Javascript](./Javascript/)
-* [ES6](./ES6/)
-* [MySQL](./MySQL/)
-* [NodeJS](./NodeJS/)
-* [Python(Node-Python)](./Node-Python/)
-* [MongoDB](./MongoDB/)
-* [TypeScript](./TypeScript/)
-* [React](./React/)
-* [Projects](./Projects/)
-
 ## Overview
 
 * [HTML](./HTML/readme.md)
     Learn the implementation of HTML forms and HTML Tables.
-
 
 * [CSS](./CSS/readme.md)
     Css for html form and table
@@ -50,34 +36,17 @@ Navigate through the folders and files within this repository to access the prog
 * [ES6](./ES6/readme.md)
     Core concepts of ES6 which make brings new syntax and new awesome features like arrow functions, template strings, class destruction to make our code more modern and more readable.
 
-* [NodeJS](./NodeJS/)
-  1. WorkShop_1:
-    - package.js: holds important information of the document and dependencies
-    - app.js : Express, REST API, basic calculatins using get method of rest api
-  2. WorkShop_2
-    - CRUD OPerations
-    - async-await
-  3. WorkShop_3
-    - Use of Sequelize
-    - Insert, update, delete, get table using sequelize
-  4. TestApp: Debug NodeJS using Chrome Inspect
+* [NodeJS](./NodeJS/readme.md)
+    Create simple application with express.js and JSON. Perform basic calculations and created REST API's.
   
-* [Python(Node-Python)](./Node-Python/)
-  - Calculator.py: basic calculator add, sub, mul, divide
-  - condition.py: if else, and or
-  - even-odd-from-1-10.py: loops and conditions
-  - break statement & continue statement
-  - list: print elements, add, remove, change elements
-  - Print tables, reverse loop & function
-  - iteration-recurssion: diff b/w iteration & recurssion
+* [Python(Node-Python)](./Node-Python/readme.md)
+    Create a basic calculator. Work on iterations, conditions and loops.
 
-* [MongoDB](./MongoDB/)
-  - crud.txt: crud operation commands
-  - mongodb aggregation & validation
-  - in & not-in operator
+* [MongoDB](./MongoDB/readme.md)
+    Creating the document oriented database. Work on CRUD operations and many more features.
 
-* [TypeScript](./TypeScript/)
-    - Building typescript project from scratch
+* [TypeScript](./TypeScript/readme.md)
+    - Building typescript project from scratch and configuring typescript.
 
 * [React](./React/)
   1. my-app
