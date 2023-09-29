@@ -1,26 +1,34 @@
 # Quiz Manager Application
-- Created REST APIs for a quiz app using node with typescript and mongoDB.
-- This application is basically creating and using quiz by different users.
+- It is a quiz application in which REST API's are used.
+- This application is based on creating and using quizes by different users.
 - Multiple users can give the quiz and get their result.
-- The user who created the quiz only can update , delete &  publish the quiz.
+- The user who created the quiz only can update , delete & publish the quiz.
 
 ## Tech Stack Used:
-NodeJS, ExpressJS, Typescript, Mongoose
+NodeJS v18.12.1, ExpressJS v4.18.2, Typescript v5.2.2, Mongoose v7.3
 
-* [Main](./src/app.ts)
-    In this file first level of routing , database connection and port configuration is done.
+## How to use this repo:
+After cloning this repository, open the terminal and run following code.
+- yarn init
+- yarn start (to run the project)
 
-* [Routes](./src/routes/)
-    All the second level of routing is done in these files that is creating API calls and connecting api's with functions like login, creating & publishing quizes, playing quizes and getting reports.
+# Folder Structure:
+- Quiz-Manger-App
+    * [src](./src/):
+        * [Main](./src/app.ts): 
+            In this file first level of routing , database connection and port configuration is done.
 
-* [Controllers](./src/controllers/)
-    In these files all the functions for performing different operations are created.
+        * [Routes](./src/routes/): 
+            All the second level of routing is done in these files that is creating API calls and connecting api's with functions like login, creating & publishing quizes, playing quizes and getting reports.
 
-* [Helper](./src/helper/)
-    A basic program is written for throwing custom errors in this projects in typical situations.
+        * [Controllers](./src/controllers/)
+            In these files all the functions for performing different operations are created.
 
-* [Middleware](./src/middlewares/)
-    A middleware is created for authentication and authorization in this projet for different actions of users.
+        * [Helper](./src/helper/)
+            A basic program for throwing custom errors in this projects in typical situations.
 
-* [Models](./src/models/)
-    These are the different formats for saving data in database.
+        * [Middleware](./src/middlewares/)
+            A middleware for authentication and authorization in this project for different actions of users.
+
+        * [Models](./src/models/)
+            These are the different formats for saving data in database.

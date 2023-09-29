@@ -4,7 +4,7 @@
 
 A collection of awesome projects and various web development concepts.
 
-This repo aims to learn and create. This is for familiarization with various tech-stacks.
+This repo aims to learn and create. This is for familiarization with MERN Stack and various other tech-stacks.
 
 ## How to use this repository
 Navigate through the folders and files within this repository to access the programming resources you're interested in.
@@ -19,39 +19,57 @@ Navigate through the folders and files within this repository to access the prog
 
 **DataBase:** MongoDB, MySQL
 
+## Prerequisites:
 
 ## Overview
 
-* [HTML](./HTML/readme.md)
+* [HTML](./HTML/readme.md): 
     Learn the implementation of HTML forms and HTML Tables.
 
-* [CSS](./CSS/readme.md)
+* [CSS](./CSS/readme.md): 
     Css for html form and table
 
-* [Javascript](./Javascript/readme.md)
+* [Javascript](./Javascript/readme.md): 
     Core javascript concepts and their implementation. Diffrent features and building blocks of javascript.
 
-* [MySQL](./MySQL/readme.md)
+* [MySQL](./MySQL/readme.md): 
     Performing basic crud operations of mysql, creating different tables, fetching data from tables & defining keys.
     
-* [ES6](./ES6/readme.md)
+* [ES6](./ES6/readme.md): 
     Core concepts of ES6 which make brings new syntax and new awesome features like arrow functions, template strings, class destruction to make our code more modern and more readable.
 
-* [NodeJS](./NodeJS/readme.md)
-    Create simple application with express.js and JSON. Perform basic calculations and created REST API's.
+* [NodeJS](./NodeJS/readme.md): 
+    This is simple application with express.js and JSON. Perform basic calculations and created REST API's.
   
-* [Python(Node-Python)](./Node-Python/readme.md)
-    Create a basic calculator. Work on iterations, conditions and loops.
+* [Python(Node-Python)](./Node-Python/readme.md): 
+    It is a basic calculator. Work on iterations, conditions and loops.
 
-* [MongoDB](./MongoDB/readme.md)
-    Creating the document oriented database. Work on CRUD operations and many more features.
+* [MongoDB](./MongoDB/readme.md): 
+    It is the document oriented database. Work on CRUD operations and many more features.
 
-* [TypeScript](./TypeScript/readme.md)
+* [TypeScript](./TypeScript/readme.md): 
      Building typescript project from scratch and configuring typescript.
 
-* [React](./React/readme.md)
-    Create an application using the open source library - **REACT**. Create api's and routers and connecting that to a backend database.
+* [React](./React/readme.md): 
+    An application using the open source library - **REACT**. Create api's and routers and connecting that to a backend database.
 
-* [Projects](./Projects/readme.md)
+* [Projects](./Projects/readme.md): 
     A collection of awesome projects to refresh the concepts of web development (Frontend & backend). How to use the collection of technologies to create something interesting.
   
+    * [Frontend Project](./Projects/Project-Forntend%20JS/readme.md): 
+      This is basic javascript project to show the functionality of create user, delete user and move user to different blocks.
+
+    * [Quiz manager application](./Projects/Quiz-Manager-App/readme.md): 
+      This is a backend application to create and play quizes in which I created REST APIs using node with typescript and mongoDB.
+    
+    * [Tic-Tac-Toe](./Projects/tic-tac-toe/README.md): 
+      In this project, I have implemented a basic tic-tac-toe game played by two players.
+    
+    * [Pet Adoption Project](./Projects/React-Project-Pet-Adoption/my-project/README.md): 
+      It is a basic react project for understand react & bootstrap concepts.
+
+    * [My Portfolio](./Projects/my-portfolio/README.md): 
+      It is a react project in which my portfolio is implemented.
+
+    * [NodeJS](./Projects/NodeJS/readme.md): 
+      Basic backend project to connect with mysql database using sequelize.
