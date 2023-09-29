@@ -1,10 +1,10 @@
 # Triweb Learning
 
-![Banner](Banner.jpg)
+![Banner](Banner1.jpg)
 
 A collection of awesome projects and various web development concepts.
 
-This repo aims to learn and create. This is for familiarization with MERN Stack and various other tech-stacks.
+This repo aims to learn and create. This is for familiarization with **MERN Stack** and various other tech-stacks.
 
 ## How to use this repository
 Navigate through the folders and files within this repository to access the programming resources you're interested in.
@@ -13,13 +13,20 @@ Navigate through the folders and files within this repository to access the prog
 ## Tech Stack Used
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=plastic&logo=bootstrap&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=plastic&logo=mysql&logoColor=white)
 
-**Client:** HTML, CSS, Javascript, React, Bootstrap
+**Client:** HTML5, CSS3, Javascript, React18, Bootstrap5, TypeScript5
 
-**Server:** Node, Express
+**Server:** Node18, Express18
 
-**DataBase:** MongoDB, MySQL
+**DataBase:** MongoDB7, MySQL
 
 ## Prerequisites:
+
+### Visual Studio Code:
+VS Code is a "full-featured" and "convenient" development environment.
+It is a source-code editor made by Microsoft. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
+
+### Xampp:
+XAMPP is an abbreviation where X stands for Cross-Platform, A stands for Apache, M stands for MYSQL, and the Ps stand for PHP and Perl, respectively. It is an open-source package of web solutions that includes Apache distribution for many servers and command-line executables.
 
 ## Overview
 

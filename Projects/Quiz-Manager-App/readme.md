@@ -21,14 +21,15 @@ After cloning this repository, open the terminal and run following code.
         * [Routes](./src/routes/): 
             All the second level of routing is done in these files that is creating API calls and connecting api's with functions like login, creating & publishing quizes, playing quizes and getting reports.
 
-        * [Controllers](./src/controllers/)
+        * [Controllers](./src/controllers/): 
             In these files all the functions for performing different operations are created.
 
-        * [Helper](./src/helper/)
+        * [Helper](./src/helper/): 
             A basic program for throwing custom errors in this projects in typical situations.
 
-        * [Middleware](./src/middlewares/)
+        * [Middleware](./src/middlewares/): 
             A middleware for authentication and authorization in this project for different actions of users.
 
-        * [Models](./src/models/)
+        * [Models](./src/models/): 
             These are the different formats for saving data in database.
+
