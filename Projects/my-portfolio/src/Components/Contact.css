@@ -11,6 +11,10 @@
     margin-top: 200px;
   }
   
+  .media{
+    display: flex;
+    flex-direction: row;
+  }
   .media svg {
     color: white;
     margin: 20px;

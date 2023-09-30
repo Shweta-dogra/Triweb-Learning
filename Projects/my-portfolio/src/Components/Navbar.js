@@ -17,10 +17,10 @@ function Navbar(){
             <button onClick={()=>{setExpandNav((prev)=> !prev)}}><ReorderIcon/></button>
         </div>
         <div className="links">
-            <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/experience">Experience</Link>
-            <Link to="/education">Education</Link>
+            <Link className="hover1" to="/">Home</Link>
+            <Link className="hover1" to="/projects">Projects</Link>
+            <Link className="hover1" to="/experience">Experience</Link>
+            <Link className="hover1" to="/education">Education</Link>
         </div>
     </div>
 }
