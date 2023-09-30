@@ -7,9 +7,21 @@ function Home(){
 
     return <div className="home">
         <div className="about">
-            <h2>Hi, I am Shweta</h2>
+            <h2>
+             <span>Hi, </span>
+             <span>I </span>
+             <span>am </span>
+             <span>Shweta</span>
+            </h2>
+            {/* <h2>Hi, I am Shweta</h2> */}
             <div className="summary">
-                <p>Passionate about web development technologies.</p>
+                <p>
+                    <span>Passionate </span> 
+                    <span>about </span> 
+                    <span>web </span>
+                    <span>development </span>
+                    <span>technologies</span>
+                    </p>
                 <a target='_blank' href='https://www.linkedin.com/in/shweta-dogra-48b201178/'><LinkedInIcon/></a>
                 <a target='_blank' href=''><EmailIcon/></a>
                 <a target='_blank' href='https://github.com/Shweta-dogra'><GitHubIcon/></a>
