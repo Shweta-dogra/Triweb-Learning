@@ -20,6 +20,10 @@ h1{
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(207, 245, 227);
 }
+.education h2{
+    margin: auto;
+    text-align: center;
+}
 /* .education:nth-child(2){
     float: left;
 } */

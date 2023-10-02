@@ -180,7 +180,7 @@
     }
 
 } */
- 
+
 h2 {
   max-width: 40ch;
   text-align: center;
@@ -202,8 +202,9 @@ span {
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
+  
 }
-
+ 
 span:nth-child(1) {
   animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
@@ -223,7 +224,7 @@ span:nth-child(4) {
 span:nth-child(5) {
   animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
-
+/*
 span:nth-child(6) {
   animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
@@ -242,7 +243,7 @@ span:nth-child(9) {
 
 span:nth-child(10) {
   animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
+} */
 
 /* span:nth-child(11) {
   animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);

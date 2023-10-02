@@ -8,18 +8,18 @@ function Home(){
     return <div className="home">
         <div className="about">
             <h2>
-             <span>Hi, </span>
-             <span>I </span>
-             <span>am </span>
+             <span>Hi, </span>&nbsp;
+             <span>I </span>&nbsp;
+             <span>am </span>&nbsp;
              <span>Shweta</span>
             </h2>
             {/* <h2>Hi, I am Shweta</h2> */}
             <div className="summary">
                 <p>
-                    <span>Passionate </span> 
-                    <span>about </span> 
-                    <span>web </span>
-                    <span>development </span>
+                    <span>Passionate</span>&nbsp;
+                    <span>about </span>&nbsp;
+                    <span>web </span>&nbsp;
+                    <span>development </span>&nbsp;
                     <span>technologies</span>
                     </p>
                 <a target='_blank' href='https://www.linkedin.com/in/shweta-dogra-48b201178/'><LinkedInIcon/></a>
