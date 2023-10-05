@@ -1,0 +1,5 @@
+Loop Queue
+while(queue.waitForMessage()){
+
+	que.process.NextMessage();
+}

@@ -11,3 +11,8 @@
     - Insert, update, delete, get table using sequelize
 * [TestApp](./TestApp/)
     - Debug NodeJS using Chrome Inspect
+* [Interview Questions](./Interview_Questions/)
+    - REPL
+    - Event loop
+    - Loop queue
+    - Destructuring of object and array
