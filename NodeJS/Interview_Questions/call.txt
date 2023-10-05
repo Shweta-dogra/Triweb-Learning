@@ -1,0 +1,5 @@
+Call()
+
+=> Call provides a new value of this to the function/method
+
+=> Inheritance --> With call you can inherit a method

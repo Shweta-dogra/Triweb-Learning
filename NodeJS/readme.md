@@ -16,3 +16,5 @@
     - Event loop
     - Loop queue
     - Destructuring of object and array
+    - Arrow functions (syntax and advantages, when to use)
+    - Call method and context of this.
