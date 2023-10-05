@@ -1,0 +1,6 @@
+Event Loop: 
+-> Because of event loop model Javascript(NodeJS) never blocks
+-> Collection and processing events
+-> Executing queued sub tasks.(Worker pool for intensive operations)
+-> Responsible for executing the code
+
