@@ -12,12 +12,15 @@
 * [TestApp](./TestApp/)
     - Debug NodeJS using Chrome Inspect
 * [Interview Questions](./Interview_Questions/)
-    - REPL
-    - Event loop
-    - Loop queue
-    - Destructuring of object and array
-    - Arrow functions (syntax and advantages, when to use)
-    - Call method and context of this.
-    - setImmediate v/s setTimeout (check queue & timer queue)
-    - call() v/s apply() v/s bind()
-    - yield & next() function 
+    * [Day1](./Interview_Questions/Day1/)
+        - REPL
+        - Event loop
+        - Loop queue
+        - Destructuring of object and array
+        - Arrow functions (syntax and advantages, when to use)
+        - Call method and context of this.
+        - setImmediate v/s setTimeout (check queue & timer queue)
+        - call() v/s apply() v/s bind()
+        - yield & next() function 
+    * [Day2](./Interview_Questions/Day2/)
+        - Array.map() function
