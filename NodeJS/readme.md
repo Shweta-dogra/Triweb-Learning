@@ -20,3 +20,4 @@
     - Call method and context of this.
     - setImmediate v/s setTimeout (check queue & timer queue)
     - call() v/s apply() v/s bind()
+    - yield & next() function 
