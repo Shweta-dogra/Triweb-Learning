@@ -25,3 +25,5 @@
     * [Day2](./Interview_Questions/Day2/)
         - Array.map() function
         - map v/s weak map
+        - difference b/w array and map
+        - callback & callback hell & new.target
