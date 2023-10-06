@@ -24,3 +24,4 @@
         - yield & next() function 
     * [Day2](./Interview_Questions/Day2/)
         - Array.map() function
+        - map v/s weak map
