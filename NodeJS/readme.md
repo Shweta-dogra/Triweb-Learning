@@ -27,3 +27,4 @@
         - map v/s weak map
         - difference b/w array and map
         - callback & callback hell & new.target
+        - Object to string conversion and vice versa
