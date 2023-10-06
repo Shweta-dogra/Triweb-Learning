@@ -1,0 +1,10 @@
+1. npm init
+2. Answer the following questions asked by npm
+- write package name = createserver
+- write description = to test node
+- write entry pint = app.js
+- write author name = shweta
+- say Yes
+
+3. A package.json file is created
+4. Now see the code in app.js file
