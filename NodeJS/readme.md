@@ -18,3 +18,5 @@
     - Destructuring of object and array
     - Arrow functions (syntax and advantages, when to use)
     - Call method and context of this.
+    - setImmediate v/s setTimeout (check queue & timer queue)
+    - call() v/s apply() v/s bind()
