@@ -30,3 +30,5 @@
         - Object to string conversion and vice versa
     * [Day3](./Interview_Questions/Day3/)
         - How to create http server in NodeJS
+        - Testing of redis using Node
+        - Event Emitter and event handler

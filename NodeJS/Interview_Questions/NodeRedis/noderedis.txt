@@ -1,0 +1,4 @@
+Testing redis on windows using node client
+
+1, npm init
+2. npm install --save redis
