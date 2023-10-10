@@ -32,6 +32,7 @@
         - How to create http server in NodeJS
         - Testing of redis using Node
         - Event Emitter and event handler
-    *[Day4](./Interview_Questions/Day4/)
+    * [Day4](./Interview_Questions/Day4/)
         - Closures and their use
         - node routes and controller functions
+        - promises (reject and resolve)
