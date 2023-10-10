@@ -35,4 +35,4 @@
     * [Day4](./Interview_Questions/Day4/)
         - Closures and their use
         - node routes and controller functions
-        - promises (reject and resolve)
+        - promises (reject and resolve), resolving all promise together,
