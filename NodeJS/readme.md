@@ -35,4 +35,5 @@
     * [Day4](./Interview_Questions/Day4/)
         - Closures and their use
         - node routes and controller functions
-        - promises (reject and resolve), resolving all promise together,
+        - promises (reject and resolve), resolving all promise together
+        - difference b/w promise.all & promise.allSettled
