@@ -37,3 +37,4 @@
         - node routes and controller functions
         - promises (reject and resolve), resolving all promise together
         - difference b/w promise.all & promise.allSettled
+        - promise.any()
