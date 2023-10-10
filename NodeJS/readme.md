@@ -38,3 +38,4 @@
         - promises (reject and resolve), resolving all promise together
         - difference b/w promise.all & promise.allSettled
         - promise.any()
+        - promise.race()
