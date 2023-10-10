@@ -34,3 +34,4 @@
         - Event Emitter and event handler
     *[Day4](./Interview_Questions/Day4/)
         - Closures and their use
+        - node routes and controller functions
