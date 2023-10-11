@@ -28,10 +28,15 @@
         - difference b/w array and map
         - callback & callback hell & new.target
         - Object to string conversion and vice versa
-    * [Day3](./Interview_Questions/Day3/)
+    * [Creating HTTP server](./Interview_Questions/Day3-Creating%20HTTP%20server%20in%20NodeJS/)
         - How to create http server in NodeJS
+    * [Event Emitter](./Interview_Questions/Day3-EventEmitter/)
+        - Evet emitter and event handling
+        - Pass data to custom events
+        - event triggering
+        - setTimeout & setinterval
+    * [NodeRedis](./Interview_Questions/NodeRedis/)
         - Testing of redis using Node
-        - Event Emitter and event handler
     * [Day4](./Interview_Questions/Day4/)
         - Closures and their use
         - node routes and controller functions
@@ -44,3 +49,8 @@
         - self invoking function by asyn-await
         - async-await chaining
         - resolve , reject and Exception handling
+    * [NodeJS Debug](./Interview_Questions/TestApp/)
+        - nodejs debug
+        - chrome inspect
+    * [Deep copy & shallow Copy](./Interview_Questions/Deep-Copy-VS-Shallow-Copy/)
+        -
