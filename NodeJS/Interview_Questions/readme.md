@@ -41,4 +41,5 @@
     - nodejs debug
     - chrome inspect
 * [Deep copy & shallow Copy](./Deep-Copy-VS-Shallow-Copy/)
-    -
+    - difference between shallow copy and deep copy
+    - shallow copy using spread operator
