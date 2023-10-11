@@ -39,3 +39,8 @@
         - difference b/w promise.all & promise.allSettled
         - promise.any()
         - promise.race()
+    * [Async-await](./Interview_Questions/Asyn-Await/)
+        - execution of async await
+        - self invoking function by asyn-await
+        - async-await chaining
+        - resolve , reject and Exception handling
