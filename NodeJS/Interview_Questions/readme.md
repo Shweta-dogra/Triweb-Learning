@@ -42,4 +42,6 @@
     - chrome inspect
 * [Deep copy & shallow Copy](./Deep-Copy-VS-Shallow-Copy/)
     - difference between shallow copy and deep copy
-    - shallow copy using spread operator, Object.assign method, slice method ,array.from method
+    - shallow copy using spread operator, Object.assign method, slice method & array.from method
+    - why use deep copy?
+    - 
