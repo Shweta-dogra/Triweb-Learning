@@ -44,4 +44,4 @@
     - difference between shallow copy and deep copy
     - shallow copy using spread operator, Object.assign method, slice method & array.from method
     - why use deep copy?
-    - 
+    - deep copy using lodash, ramda, json and making custom program of deep cloning
