@@ -45,18 +45,18 @@ const getQuiz= async(req:Request, res:Response, next:NextFunction)=>{
         let quiz;
         const quizId = req.params.quizId;
 
-    if (quizId) {
-      quiz = await Quiz.findById(quizId);
-      if (!quiz) {
-        const err = new ProjectError("Quiz not found");
-        err.statusCode = 404;
-        throw err;
-      } else if (req.userId !== quiz?.created_by.toString()) {
-        const err = new ProjectError("You are not authorized");
-        err.statusCode = 403;
-        throw err;
-      }
-    }
+        if (quizId) {
+            quiz = await Quiz.findById(quizId);
+            if (!quiz) {
+                const err = new ProjectError("Quiz not found");
+                err.statusCode = 404;
+                throw err;
+            } else if (req.userId !== quiz?.created_by.toString()) {
+                const err = new ProjectError("You are not authorized");
+                err.statusCode = 403;
+                throw err;
+            }
+        }
         else{
             quiz = await Quiz.find({ created_by: req.userId });
         }
