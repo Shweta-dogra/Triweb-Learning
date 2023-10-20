@@ -26,9 +26,9 @@ const createQuiz= async (req:Request, res:Response, next:NextFunction)=>{
         const name = req.body.name;
         const questions_list = req.body.questions_list;
         const answers = req.body.answers;
+        const is_publicQuiz = req.body.is_public;
 
-
-        const quiz = new Quiz({ name, questions_list, answers, created_by });
+        const quiz = new Quiz({ name, questions_list, answers, created_by, is_publicQuiz });
         const result = await quiz.save();
 
         const resp: ReturnResponse = { status: "success", message: "Quiz created successfully", data: { quizId: result._id } };

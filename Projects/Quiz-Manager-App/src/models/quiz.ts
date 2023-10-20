@@ -31,6 +31,10 @@ const quizSchema = new schema(
         is_published: {
             type: Boolean,
             default:false
+        },
+        is_publicQuiz: {
+            type: Boolean,
+            required: true
         }
     },
     {
