@@ -3,11 +3,7 @@ import { Schema } from "express-validator";
 import mongoose from "mongoose";
 
 const schema = mongoose.Schema;
-// interface Quiz {
-    
-//     is_publicQuiz: Boolean
-//     allowed_user?: []| [];
-// }
+
 // Schema
 const quizSchema = new schema(
     {
@@ -45,12 +41,10 @@ const quizSchema = new schema(
             type: Boolean,
             required: true
         },
-        // allowed_user:{
-        //     type: [],
-        //     required: function(this:schema) {
-        //         return this.is_publicQuiz == false;
-        //       }
-        // }
+        allowed_user:{
+            type: [],
+            default: []
+        }
     },
     {
         timestamps: true
@@ -61,7 +55,5 @@ const quizSchema = new schema(
 
 
 const Quiz = mongoose.model("Quiz", quizSchema);
-
- 
 
 export default Quiz;

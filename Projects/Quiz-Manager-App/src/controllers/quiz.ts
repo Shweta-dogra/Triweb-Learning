@@ -26,10 +26,16 @@ const createQuiz= async (req:Request, res:Response, next:NextFunction)=>{
         const name = req.body.name;
         const questions_list = req.body.questions_list;
         const answers = req.body.answers;
-        const is_publicQuiz = req.body.is_public;
-        // const allowed_user = req.body.allowed_user;
+        const is_publicQuiz = req.body.is_publicQuiz;
+        const allowed_user = req.body.allowed_user;
         const passing_percentage = req.body.passing_percentage;
-        const quiz = new Quiz({ name, questions_list, answers, created_by, is_publicQuiz, passing_percentage });
+
+        if(is_publicQuiz === false && allowed_user.length === 0){
+            const err = new ProjectError("Users not specified for private quiz!");
+                err.statusCode = 404;
+                throw err;
+        }
+        const quiz = new Quiz({ name, questions_list, answers, created_by, is_publicQuiz, allowed_user, passing_percentage });
         const result = await quiz.save();
 
         const resp: ReturnResponse = { status: "success", message: "Quiz created successfully", data: { quizId: result._id } };

@@ -20,10 +20,6 @@ router.post('/', isAuthenticated, [
             return Promise.reject("Enter atleast one answer..");
         }
         return true;
-    }),
-    body('passing_percentage').isEmpty().withMessage("Enter atleast 40% "),
-    body('is_publicQuiz').custom(()=>{
-
     })
 ], createQuiz);
 
