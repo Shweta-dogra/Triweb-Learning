@@ -2,6 +2,7 @@ import {Request, Response ,  NextFunction} from "express";
 import Quiz from "../models/quiz";
 import Report from "../models/report";
 import ProjectError from "../helper/projectError";
+import User from "../models/user";
 
 interface ReturnResponse {
     status: "success" | "error",
@@ -12,7 +13,7 @@ interface ReturnResponse {
 const startExam = async (req: Request, res: Response, next: NextFunction) => {
     try {
         const quizId = req.params.quizId;
-        const quiz = await Quiz.findById(quizId,{name:1,questions_list:1,is_published:1});
+        const quiz = await Quiz.findById(quizId,{name:1,questions_list:1,is_published:1,is_publicQuiz:1, allowed_user:1});
 
         if (!quiz) {
             const err = new ProjectError("No Quiz found..");
@@ -24,7 +25,13 @@ const startExam = async (req: Request, res: Response, next: NextFunction) => {
             err.statusCode = 405;
             throw err;
         }
-
+            
+            if(!quiz.is_publicQuiz && !quiz.allowed_user.includes(req.userId)){
+                const err = new ProjectError("This is a private quiz. You are not allowed to give this quiz...");
+                err.statusCode = 404;
+                throw err;
+            }
+            
         const resp: ReturnResponse = { status: "success", message: "Exam start", data: quiz };
 
         res.status(200).send(resp);

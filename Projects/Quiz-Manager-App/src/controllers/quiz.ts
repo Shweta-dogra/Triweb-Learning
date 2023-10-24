@@ -116,6 +116,15 @@ const updateQuiz= async(req:Request, res:Response, next:NextFunction)=>{
         quiz.name = req.body.name;
         quiz.questions_list = req.body.questions_list;
         quiz.answers = req.body.answers;
+        quiz.is_publicQuiz = req.body.is_publicQuiz;
+        quiz.allowed_user = req.body.allowed_user;
+        quiz.passing_percentage = req.body.passing_percentage;
+
+        if(quiz.is_publicQuiz === false && quiz.allowed_user.length === 0){
+            const err = new ProjectError("Users not specified for private quiz!");
+                err.statusCode = 404;
+                throw err;
+        }
 
         const result = await quiz.save();
         const resp: ReturnResponse = { status: "success", message: "Quiz updated successfully", data: {   } };

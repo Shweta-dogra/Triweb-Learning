@@ -20,7 +20,12 @@ router.post('/', isAuthenticated, [
             return Promise.reject("Enter atleast one answer..");
         }
         return true;
-    })
+    }),
+    // body('passing_percentage').custom((passing_percentage:Number)=>{
+    //     if(!passing_percentage){
+    //         return Promise.reject("Enter atleast some passing percentage..");
+    //     }
+    // }),
 ], createQuiz);
 
 router.get('/:quizId?', isAuthenticated, getQuiz);
@@ -39,6 +44,11 @@ router.put('/', isAuthenticated, [
             return Promise.reject("Enter atleast one answer..");
         }
         return true;
+    }),
+    body('passing_percentage').custom((passing_percentage:Number)=>{
+        if(!passing_percentage){
+            return Promise.reject("Enter atleast some passing percentage..");
+        }
     })
 ], updateQuiz);
 
