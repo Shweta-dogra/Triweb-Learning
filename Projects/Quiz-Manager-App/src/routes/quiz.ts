@@ -21,18 +21,28 @@ router.post('/', isAuthenticated, [
         }
         return true;
     }),
-    // body('passing_percentage').custom((passing_percentage:Number)=>{
-    //     if(!passing_percentage){
-    //         return Promise.reject("Enter atleast some passing percentage..");
-    //     }
-    // }),
+    body('is_publicQuiz').custom((is_publicQuiz:Boolean)=>{
+        if(is_publicQuiz == false){
+            if(body('allowed_user').length ==0){
+                return Promise.reject("Enter atleast one user allowed to give the quiz...");
+            }
+            return true;
+        }
+        return true;
+    }),
+    body('passing_percentage').custom((passing_percentage:Number)=>{
+        if(passing_percentage==0){
+            return Promise.reject("Passing percentage can not be zero..");
+        }
+        return true;
+    })
 ], createQuiz);
 
 router.get('/:quizId?', isAuthenticated, getQuiz);
 
 router.put('/', isAuthenticated, [
     body('name').trim().not().isEmpty()
-        .isLength({ min: 10 }).withMessage("please Enter a Valid Name Minimum 10 char long"),
+        .isLength({ min: 10 }).withMessage("please Enter a Valid Name Minimum 4 char long"),
     body('questions_list').custom((questions_list:[]) => {
         if (questions_list.length == 0) {
             return Promise.reject("Enter atleast one Qestion");
@@ -45,9 +55,16 @@ router.put('/', isAuthenticated, [
         }
         return true;
     }),
+    body('is_publicQuiz').custom((is_publicQuiz:Boolean)=>{
+        if(is_publicQuiz === false){
+            if(body('allowed_user').length ==0){
+                return Promise.reject("Enter atleast one user allowed to give the quiz...");
+            }
+        }
+    }),
     body('passing_percentage').custom((passing_percentage:Number)=>{
-        if(!passing_percentage){
-            return Promise.reject("Enter atleast some passing percentage..");
+        if(passing_percentage==0){
+            return Promise.reject("Passing percentage can not be zero..");
         }
     })
 ], updateQuiz);
