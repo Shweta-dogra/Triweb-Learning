@@ -62,10 +62,20 @@ router.put('/', isAuthenticated, [
             }
         }
     }),
+    body('is_publicQuiz').custom((is_publicQuiz:Boolean)=>{
+        if(is_publicQuiz == false){
+            if(body('allowed_user').length ==0){
+                return Promise.reject("Enter atleast one user allowed to give the quiz...");
+            }
+            return true;
+        }
+        return true;
+    }),
     body('passing_percentage').custom((passing_percentage:Number)=>{
         if(passing_percentage==0){
             return Promise.reject("Passing percentage can not be zero..");
         }
+        return true;
     })
 ], updateQuiz);
 
